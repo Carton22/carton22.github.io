@@ -1,0 +1,45 @@
+.bodytext {
+    font-size: 20px;
+    color: #353232;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font:bold;
+}
+
+.bodyBigtext {
+    font-size: 40px;
+    color: #353232;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font:bold;
+}
+
+.bodyMidtext {
+    font-size: 30px;
+    color: #353232;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font:bold;
+}
+
+.bodytext a{
+    text-decoration: underline;
+    color: #6f6a6a;
+}
+
+.bodytext a:hover {
+    text-decoration: none;
+}
+
+img {
+    width: 250px; 
+    height: 250px; /* 设置图片容器的高度 */
+    overflow: hidden; /* 隐藏溢出的部分，以显示圆形 */
+    border-radius: 50%;
+    display: block;
+    padding: 20px;
+    box-shadow: 10px 0 20px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+}

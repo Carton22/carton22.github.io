@@ -39,6 +39,11 @@ header {
     top: 100px;
 }
 
+.square1 square1t1 a {
+    text-decoration: none;
+    color: #222E50; /* 设置链接颜色 */
+}
+
 .square1 square1t1 img{
     display: none;
 } 
@@ -55,7 +60,6 @@ header {
     display: block;
     padding: 120px;
     box-shadow: 10px 0 20px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
-    transition-delay: 3s;
 }
 
 /* 设置左下方块的样式 */
