@@ -16,6 +16,15 @@
     font:bold;
 }
 
+.bodyChineseBigtext {
+    font-size: 40px;
+    color: #353232;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Noto Serif SC', serif;
+    font-weight: bold;
+}
+
 .bodyMidtext {
     font-size: 30px;
     color: #353232;
@@ -42,4 +51,5 @@ img {
     display: block;
     padding: 20px;
     box-shadow: 10px 0 20px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+    margin: 2% auto;
 }
