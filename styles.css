@@ -32,7 +32,6 @@ header {
     font-size: 100px;
     color: #222E50;
     text-align: center;
-    text-decoration: underline;
     margin: 10%;
     padding: 10px;
     font-family: 'Poppins', sans-serif;
@@ -56,7 +55,7 @@ header {
 } 
 
 .square1 square1t1:hover {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .square1 square1t1:hover img {
@@ -196,5 +195,5 @@ header {
 /* 设置链接文本的悬停颜色 */
 .footer footert1 a:hover {
     text-decoration: underline; /* 鼠标悬停时添加下划线 */
-    color: #ff6600; /* 设置悬停颜色 */
+    color: #2b231d; /* 设置悬停颜色 */
 }

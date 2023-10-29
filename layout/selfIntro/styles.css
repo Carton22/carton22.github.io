@@ -1,10 +1,36 @@
+.selfIntroApply {
+    font-size: 20px;
+    color: #353232;
+    text-align: center;
+    padding: 20px;
+    margin: 0 10%;
+    font-family: 'Poppins', sans-serif;
+    font:bold;
+}
+
+.selfIntroLinks {
+    font-size: 20px;
+    color: #353232;
+    text-align: center;
+    padding: 20px;
+    margin: 0 10%;
+    font-family: 'Poppins', sans-serif;
+    font:bold;
+}
+
+.selfIntroLinks a{
+    color: #5d6b4e;
+}
+
 .bodytext {
     font-size: 20px;
     color: #353232;
     text-align: center;
     padding: 20px;
+    margin: 0 10%;
     font-family: 'Poppins', sans-serif;
-    font:bold;
+    font:caption;
+    text-align: justify;
 }
 
 .bodyBigtext {
@@ -36,7 +62,7 @@
 
 .bodytext a{
     text-decoration: underline;
-    color: #6f6a6a;
+    color: #5d6b4e;
 }
 
 .bodytext a:hover {
@@ -52,4 +78,7 @@ img {
     padding: 20px;
     box-shadow: 10px 0 20px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
     margin: 2% auto;
+    position: relative;
+    z-index: 1;
 }
+
