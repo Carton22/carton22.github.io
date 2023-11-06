@@ -214,7 +214,7 @@ header {
     height: 100vh; /* 设置每个页面的高度为视口高度的一半 */
     overflow: auto; /* 允许内容滚动 */
     /* background: linear-gradient(to bottom, #8BB174, #426B69); */
-    background-color: #426B69;
+    background: linear-gradient(to left,#2a3a21,#354249);
 }
 
 .selfIntroApply {
@@ -243,7 +243,7 @@ header {
 }
 
 .bodyBigtext {
-    font-size: 40px;
+    font-size: 50px;
     color: #ffffff;
     text-align: center;
     padding: 10px;
@@ -300,10 +300,13 @@ header {
     flex-direction: column; /* 垂直排列内容 */
     align-items: flex-start; /* 内容左对齐 */
     margin-top: 2%;
+    z-index: 2;
 }
 
 .CoverImage {
     width: auto; 
     height: 100%; 
     float: left; 
+    box-shadow: 50px 0 50px rgba(0, 0, 0, 0.1);
 }
+
