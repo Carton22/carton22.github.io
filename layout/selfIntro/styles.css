@@ -2,7 +2,7 @@
     font-size: 20px;
     color: #353232;
     text-align: center;
-    padding: 20px;
+    padding: 5px;
     margin: 0 10%;
     font-family: 'Poppins', sans-serif;
     font:bold;
@@ -12,7 +12,7 @@
     font-size: 20px;
     color: #353232;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     margin: 0 10%;
     font-family: 'Poppins', sans-serif;
     font:bold;
@@ -22,22 +22,15 @@
     color: #5d6b4e;
 }
 
-.bodytext {
-    font-size: 20px;
-    color: #353232;
-    text-align: center;
-    padding: 20px;
-    margin: 0 10%;
-    font-family: 'Poppins', sans-serif;
-    font:caption;
-    text-align: start;
+body {
+    background: linear-gradient(to right,#a7c288,#d9bf75);
 }
 
 .bodyBigtext {
     font-size: 40px;
     color: #353232;
     text-align: center;
-    padding: 10px;
+    padding: 1px;
     font-family: 'Poppins', sans-serif;
     font:bold;
 }
@@ -46,7 +39,7 @@
     font-size: 40px;
     color: #353232;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     font-family: 'Noto Serif SC', serif;
     font-weight: bold;
 }
@@ -55,9 +48,19 @@
     font-size: 30px;
     color: #353232;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     font-family: 'Poppins', sans-serif;
     font:bold;
+}
+
+.bodytext {
+    font-size: 17px;
+    color: #353232;
+    text-align: center;
+    padding: 5px;
+    margin: 0 10%;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align:start;
 }
 
 .bodytext a{
@@ -73,12 +76,24 @@ img {
     width: 250px; 
     height: 250px; /* 设置图片容器的高度 */
     overflow: hidden; /* 隐藏溢出的部分，以显示圆形 */
-    border-radius: 50%;
+    border-radius: 80%;
     display: block;
-    padding: 20px;
+    padding: 40px;
     box-shadow: 10px 0 20px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
-    margin: 2% auto;
+    margin: 1% auto;
     position: relative;
     z-index: 1;
 }
 
+.square {
+    width: 70%;
+    height: 80%;
+    background: linear-gradient(to bottom, #426B69, #8BB174);
+    position:relative;
+    margin-top: 1%;
+    left: 15%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px; /* 圆角 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
+}

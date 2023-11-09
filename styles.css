@@ -16,11 +16,16 @@ header {
 /* 设置左上方块的样式 */
 .square1 {
     width: 40%;
-    height: 70%;
+    height: 80%;
     background-color: #B5CA8D; /* 设置方块背景颜色 */
-    position: absolute;
-    top: 100%;
-    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px; /* 圆角 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
+    float: left; 
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
 .square1:hover {
@@ -44,12 +49,13 @@ header {
 }
 
 .square1 square1t1 img{
-    width: 250px; /* 设置图片容器的宽度 */
-    height: 250px; /* 设置图片容器的高度 */
+    width: 350px; /* 设置图片容器的宽度 */
+    height: 350px; /* 设置图片容器的高度 */
     overflow: hidden; /* 隐藏溢出的部分，以显示圆形 */
     border-radius: 50%;
     display: block;
-    padding: 120px;
+    padding: 75px;
+    justify-content: center;
     box-shadow: 10px 0 20px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
 } 
 
@@ -57,18 +63,19 @@ header {
     text-decoration: underline;
 }
 
-/* .square1 square1t1:hover img {
-    display: none;
-} */
-
 /* 设置左下方块的样式 */
 .square2 {
-    width: 60%;
+    width: 40%;
     height: 40%;
     background: linear-gradient(to bottom, #8BB174, #426B69);
     position: absolute;
-    top: 100%;
-    right: 0;
+    top: 105%;
+    right: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px; /* 圆角 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
 }
 
 .square2:hover {
@@ -101,8 +108,13 @@ header {
     height: 30%;
     background: linear-gradient(to bottom, #426B69, #8BB174);
     position: absolute;
-    top: 170%;
-    left: 0;
+    top: 153%;
+    left: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px; /* 圆角 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
 }
 
 .square3:hover {
@@ -129,20 +141,25 @@ header {
 }
 /* 设置右下方块的样式 */
 .square4 {
-    width: 60%;
-    height: 60%;
+    width: 25%;
+    height: 30%;
     background-color: #222E50; /* 设置方块背景颜色 */
     position: absolute;
-    top: 140%;
-    right: 0;
+    top: 115%;
+    left: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px; /* 圆角 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
 }
 
 .square4:hover {
-    background-color: #E4E6C3; /* 设置方块背景颜色 */
+    background-color: #a7c288; /* 设置方块背景颜色 */
 }
 
 .square4 square4t1 {
-    font-size: 60px;
+    font-size: 40px;
     color: #ffffff;
     text-align: center;
     margin: 10%;
@@ -156,13 +173,47 @@ header {
     color: #ffffff; /* 设置链接颜色 */
 }
 
+.square5 {
+    width: 25%;
+    height: 30%;
+    background-color: #222E50; /* 设置方块背景颜色 */
+    position: absolute;
+    top: 150%;
+    right: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px; /* 圆角 */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
+}
+
+.square5:hover {
+    background-color: #a7c288; /* 设置方块背景颜色 */
+}
+
+.square5 square4t1 {
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+    margin: 10%;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font:bold;
+}
+
+.square5 square5t1 a{
+    text-decoration: none; /* 去掉下划线 */
+    color: #ffffff; /* 设置链接颜色 */
+}
+
 /* 设置底栏样式 */
 .footer {
     width: 100%;
     height: 9%;
-    background: linear-gradient(to right,#7290a0,#354249); /* 设置底栏背景颜色 */
+    /* background: linear-gradient(to right,#7290a0,#354249); */
+    background: transparent;
     position: absolute;
-    bottom: -109%;
+    bottom: -100%;
     display: flex;
     justify-content: space-between; /* 水平方向上均匀分布 */
     align-items: center; /* 竖直方向上居中对齐 */
@@ -182,15 +233,9 @@ header {
     color: #ffffff; /* 设置链接颜色 */
 }
 
-/* 设置链接文本的悬停颜色 */
-.footer squaret1 a:hover {
-    text-decoration: underline; /* 鼠标悬停时添加下划线 */
-    color: #ff6600; /* 设置悬停颜色 */
-}
-
 /* 设置底栏文字 */
 .footer footert1{
-    font-size: 25px;
+    font-size: 15px;
     color: #b5b0b0;
     text-align: center;
     padding: 10px;
@@ -201,7 +246,7 @@ header {
 /* 设置链接文本的颜色 */
 .footer footert1 a {
     text-decoration: none; /* 去掉下划线 */
-    color: #ffffff; /* 设置链接颜色 */
+    color: #7d918d; /* 设置链接颜色 */
 }
 
 /* 设置链接文本的悬停颜色 */
@@ -296,17 +341,23 @@ header {
 }
 
 .textContainer {
-    display: flex; /* 使用弹性盒子布局 */
-    flex-direction: column; /* 垂直排列内容 */
-    align-items: flex-start; /* 内容左对齐 */
-    margin-top: 2%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start;
+    margin-top: 4%;
     z-index: 2;
 }
 
 .CoverImage {
     width: auto; 
-    height: 100%; 
+    height: 80%; 
     float: left; 
     box-shadow: 50px 0 50px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px; /* 圆角 */
+    margin-left: 5%;
+    margin-top: 5%;
 }
 
