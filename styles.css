@@ -26,10 +26,12 @@ header {
     float: left; 
     margin-left: 5%;
     margin-top: 5%;
+    transition: transform 0.2s ease-in-out;
 }
 
 .square1:hover {
     background-color: #87BBA2; /* 设置方块背景颜色 */
+    transform: scale(1.05);
 }
 
 .square1 square1t1 {
@@ -76,10 +78,12 @@ header {
     align-items: center;
     border-radius: 40px; /* 圆角 */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
+    transition: transform 0.2s ease-in-out;
 }
 
 .square2:hover {
     background-color: #93A8AC; /* 设置方块背景颜色 */
+    transform: scale(1.05);
 }
 
 .square2 square2t1 {
@@ -115,10 +119,12 @@ header {
     align-items: center;
     border-radius: 40px; /* 圆角 */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
+    transition: transform 0.2s ease-in-out;
 }
 
 .square3:hover {
     background-color: #F9DB6D; /* 设置方块背景颜色 */
+    transform: scale(1.05);
 }
 
 .square3 square3t1 {
@@ -152,10 +158,12 @@ header {
     align-items: center;
     border-radius: 40px; /* 圆角 */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
+    transition: transform 0.2s ease-in-out;
 }
 
 .square4:hover {
     background-color: #a7c288; /* 设置方块背景颜色 */
+    transform: scale(1.05);
 }
 
 .square4 square4t1 {
@@ -185,10 +193,12 @@ header {
     align-items: center;
     border-radius: 40px; /* 圆角 */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
+    transition: transform 0.2s ease-in-out;
 }
 
 .square5:hover {
     background-color: #a7c288; /* 设置方块背景颜色 */
+    transform: scale(1.05);
 }
 
 .square5 square4t1 {
@@ -251,8 +261,8 @@ header {
 
 /* 设置链接文本的悬停颜色 */
 .footer footert1 a:hover {
-    text-decoration: underline; /* 鼠标悬停时添加下划线 */
-    color: #2b231d; /* 设置悬停颜色 */
+    text-decoration: none; /* 鼠标悬停时添加下划线 */
+    color: #ffffff; /* 设置悬停颜色 */
 }
 
 .page {
@@ -344,7 +354,7 @@ header {
     display: flex; 
     flex-direction: column; 
     align-items: flex-start;
-    margin-top: 4%;
+    margin-top: 5%;
     z-index: 2;
 }
 
@@ -361,3 +371,38 @@ header {
     margin-top: 5%;
 }
 
+.button-container {
+    position: absolute; /* 设置绝对定位 */
+    top: 1%; /* 距离顶部的距离 */
+    right: 5%; /* 距离右侧的距离 */
+    gap: 20px;
+    display: flex;
+    flex-direction: row; /* 将按钮水平排列 */
+}
+
+.button {
+    width: 120px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.button-container a{
+	text-decoration: none;
+}
