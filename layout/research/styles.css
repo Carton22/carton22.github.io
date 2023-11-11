@@ -7,6 +7,12 @@
 	margin-left: auto;
 }
 
+.page{
+	height: 100vh; /* Set container height to 100% of viewport height */
+	overflow: auto;
+	position: relative;
+}
+
 .content-table {
 	width: 50%;
 	border: 0px;
@@ -19,7 +25,7 @@
 	border-radius: 20px;
 	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
 	margin-top: 5%;
-
+	margin-bottom: 5%;
 }
 
 .section-heading {

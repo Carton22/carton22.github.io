@@ -60,6 +60,16 @@ h5 {
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    z-index: 1;
+}
+
+.floatTop {
+    position: fixed; /* 或者使用 absolute，具体取决于你的需求 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999; /* 调整为你需要的值，确保比其他元素的 z-index 高就行 */
+    background-color: #fff; /* 如果需要背景颜色，可以添加此行 */
 }
 
 #cover-text {

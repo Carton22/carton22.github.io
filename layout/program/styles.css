@@ -1,3 +1,9 @@
+.page{
+	height: 100vh; /* Set container height to 100% of viewport height */
+	overflow: auto;
+	position: relative;
+}
+
 .section-table {
 	width: 100%;
 	border: 0px;
@@ -8,18 +14,18 @@
 }
 
 .content-table {
-	width: 50%;
-	border: 0px;
-	border-spacing: 0px;
-	border-collapse: separate;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 20px;
-    background-color: #ffffff;;
-	border-radius: 20px;
-	box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
-	margin-top: 5%;
-
+    width: 80%;
+    border: 0px;
+    border-spacing: 0px;
+    border-collapse: separate;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 .section-heading {
@@ -63,6 +69,10 @@
 	margin-bottom: 5px;
 }
 
+.section-title a{
+	color: rgb(28, 38, 35);
+}
+
 .section-second-title {
 	font-size: 15px;
 	font-weight: bold;
@@ -102,14 +112,14 @@ html, body {
 	margin: 0;
 	overflow: hidden;
 }
-  
+
 .button-container {
-    position: absolute; /* 设置绝对定位 */
+    position: absolute; /* 将位置固定在屏幕上 */
     top: 1%; /* 距离顶部的距离 */
     right: 5%; /* 距离右侧的距离 */
     gap: 20px;
     display: flex;
-    flex-direction: row; /* 将按钮水平排列 */
+
 }
 
 .button {
