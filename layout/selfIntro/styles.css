@@ -20,6 +20,7 @@
 
 .selfIntroLinks a{
     color: #5d6b4e;
+    text-decoration: none;
 }
 
 body {
@@ -86,14 +87,50 @@ img {
 }
 
 .square {
-    width: 70%;
+    width: 50%;
     height: 80%;
     background: linear-gradient(to bottom, #426B69, #8BB174);
     position:relative;
-    margin-top: 1%;
-    left: 15%;
+    margin-top: 5%;
+    left: 25%;
     justify-content: center;
     align-items: center;
     border-radius: 40px; /* 圆角 */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
+}
+
+.button-container {
+    position: absolute; /* 设置绝对定位 */
+    top: 1%; /* 距离顶部的距离 */
+    right: 5%; /* 距离右侧的距离 */
+    gap: 20px;
+    display: flex;
+    flex-direction: row; /* 将按钮水平排列 */
+}
+
+.button {
+    width: 120px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.button span {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.button-container a{
+	text-decoration: none;
 }

@@ -35,7 +35,7 @@ header {
 }
 
 .square1 square1t1 {
-    font-size: 100px;
+    font-size: 6em;
     color: #222E50;
     text-align: center;
     margin: 10%;
@@ -51,14 +51,15 @@ header {
 }
 
 .square1 square1t1 img{
-    width: 350px; /* 设置图片容器的宽度 */
-    height: 350px; /* 设置图片容器的高度 */
+    width: 80%; /* 设置图片容器的宽度 */
+    height: 80%; /* 设置图片容器的高度 */
     overflow: hidden; /* 隐藏溢出的部分，以显示圆形 */
     border-radius: 50%;
     display: block;
-    padding: 75px;
+    padding: 10%;
     justify-content: center;
     box-shadow: 10px 0 20px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+    max-width: 100%;
 } 
 
 .square1 square1t1:hover {
@@ -87,7 +88,7 @@ header {
 }
 
 .square2 square2t1 {
-    font-size: 70px;
+    font-size: 5em;
     color: #ffffff;
     text-align: center;
     margin: 10%;
@@ -128,7 +129,7 @@ header {
 }
 
 .square3 square3t1 {
-    font-size: 60px;
+    font-size: 4em;
     color: #ffffff;
     text-align: center;
     margin: 10%;
@@ -167,7 +168,7 @@ header {
 }
 
 .square4 square4t1 {
-    font-size: 40px;
+    font-size: 3em;
     color: #ffffff;
     text-align: center;
     margin: 10%;
@@ -201,8 +202,8 @@ header {
     transform: scale(1.05);
 }
 
-.square5 square4t1 {
-    font-size: 40px;
+.square5 square5t1 {
+    font-size: 3em;
     color: #ffffff;
     text-align: center;
     margin: 10%;
@@ -268,7 +269,6 @@ header {
 .page {
     height: 100vh; /* 设置每个页面的高度为视口高度的一半 */
     overflow: auto; /* 允许内容滚动 */
-    /* background: linear-gradient(to bottom, #8BB174, #426B69); */
     background: linear-gradient(to left,#2a3a21,#354249);
 }
 
