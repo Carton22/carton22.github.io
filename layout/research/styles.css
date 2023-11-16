@@ -145,3 +145,27 @@ html, body {
 .button-container a{
 	text-decoration: none;
 }
+
+@media screen and (max-width: 1000px) {
+	.content-table {
+		margin-top: 12%;
+		width: 90%;
+	}
+
+    .button-container {
+        top: 1%; /* 调整按钮距离顶部的距离 */
+        margin-left: 40%;
+        margin-right: 15%; /* 调整按钮距离右侧的距离 */
+        position: absolute;
+    }
+
+    .button {
+        width: 60px;
+        height: 40px;
+        margin-bottom: 10px; /* 调整按钮之间的间距 */
+    }
+
+    .button span {
+        font-size: 10px;
+    }
+}

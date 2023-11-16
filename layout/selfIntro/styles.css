@@ -91,8 +91,8 @@ img {
     height: 80%;
     background: linear-gradient(to bottom, #426B69, #8BB174);
     position:relative;
-    margin-top: 5%;
-    left: 25%;
+    margin-top: 6%;
+    margin-left: 25%;
     justify-content: center;
     align-items: center;
     border-radius: 40px; /* 圆角 */
@@ -133,4 +133,75 @@ img {
 
 .button-container a{
 	text-decoration: none;
+}
+
+@media screen and (max-width: 1000px) {
+	.square {
+		margin-top: 25%;
+        margin-left: 5%;
+		width: 90%;
+	}
+
+    .square img{
+        width: 40%; /* 设置图片容器的宽度 */
+        height: 40%; /* 设置图片容器的高度 */
+        padding: 10%;
+        box-shadow: 10px 0 20px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+        border-radius: 50%;
+        margin-bottom: 10%;
+        margin-left: 20%;
+    }
+
+    .button-container {
+        top: 3%; /* 调整按钮距离顶部的距离 */
+        margin-left: 50%;
+        margin-right: 7%; /* 调整按钮距离右侧的距离 */
+        position: absolute;
+    }
+
+    .button {
+        width: 60px;
+        height: 40px;
+        margin-bottom: 10px; /* 调整按钮之间的间距 */
+    }
+
+    .button span {
+        font-size: 10px;
+    }
+
+    .bodyBigtext {
+        font-size: 30px;
+        padding: 1px;
+        margin: 0 10%;
+    }
+    
+    .bodyChineseBigtext {
+        font-size: 20px;
+        padding: 1px;
+        margin: 0 10%;
+    }
+
+    .bodyMidtext {
+        font-size: 15px;
+        padding: 1px;
+        margin: 0 10%;
+    }
+
+    .bodytext {
+        font-size: 15px;
+        padding: 1px;
+        margin: 0 10%;
+    }
+
+    .selfIntroApply {
+        font-size: 10px;
+        padding: 5px;
+        margin: 0 10%;
+    }
+    
+    .selfIntroLinks {
+        font-size: 10px;
+        padding: 5px;
+        margin: 0 10%;
+    }
 }

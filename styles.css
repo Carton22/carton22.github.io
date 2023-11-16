@@ -221,27 +221,12 @@ header {
 .footer {
     width: 100%;
     height: 9%;
-    /* background: linear-gradient(to right,#7290a0,#354249); */
     background: transparent;
     position: absolute;
     bottom: -100%;
     display: flex;
-    justify-content: space-between; /* 水平方向上均匀分布 */
+    justify-content: center; /* 水平方向上均匀分布 */
     align-items: center; /* 竖直方向上居中对齐 */
-}
-
-.footer p{
-    font-size: 15px;
-    color: #b5b0b0;
-    text-align: center;
-    padding: 20px;
-    font-family: 'Josefin Sans', sans-serif;
-    font: bold;
-}
-/* 设置链接文本的颜色 */
-.footer squaret1 a {
-    text-decoration: none; /* 去掉下划线 */
-    color: #ffffff; /* 设置链接颜色 */
 }
 
 /* 设置底栏文字 */
@@ -405,4 +390,108 @@ header {
 
 .button-container a{
 	text-decoration: none;
+}
+
+/* 例如，将以下代码添加到你的CSS文件中 */
+@media screen and (max-width: 1000px) {
+    /* 在小屏幕上的样式调整 */
+    .button-container {
+        top: 1%; /* 调整按钮距离顶部的距离 */
+        margin-left: 40%;
+        margin-right: 15%; /* 调整按钮距离右侧的距离 */
+        position: absolute;
+    }
+
+    .button {
+        width: 60px;
+        height: 40px;
+        margin-bottom: 10px; /* 调整按钮之间的间距 */
+    }
+
+    .button span {
+        font-size: 10px;
+    }
+
+    .square1 {
+        width:80%;
+        height: 40%;
+        margin-top: 15%;
+        margin-left: 10%;
+        float: none;
+    }
+
+    .square1 square1t1 a{
+        font-size: 30px;
+    }
+
+    .square1 square1t1 img{
+        width: 40%; /* 设置图片容器的宽度 */
+        height: 40%; /* 设置图片容器的高度 */
+        padding: 10%;
+        box-shadow: 10px 0 20px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+        border-radius: 50%;
+        margin-bottom: 10%;
+        margin-left: 20%;
+    } 
+
+    .square2 square2t1 {
+        font-size: 30px;
+    }
+
+    .square3 square3t1 {
+        font-size: 30px;
+    }
+
+    .square4 square4t1 a{
+        font-size: 20px;
+    }
+
+    .square5 square5t1 {
+        font-size: 15px;
+    }
+
+    .footer footert1 a img{
+        width: 15px;
+        height: 15px;
+    }
+
+    .footer footert1{
+        font-size: 10px;
+    }
+
+    .bodyBigtext {
+        font-size: 30px;
+        padding: 1px;
+        margin: 0 10%;
+    }
+    
+    .bodyChineseBigtext {
+        font-size: 20px;
+        padding: 1px;
+        margin: 0 10%;
+    }
+
+    .bodyMidtext {
+        font-size: 15px;
+        padding: 1px;
+        margin: 0 10%;
+    }
+
+    .bodytext {
+        font-size: 15px;
+        padding: 1px;
+        margin: 0 10%;
+    }
+
+    .selfIntroApply {
+        font-size: 10px;
+        padding: 5px;
+        margin: 0 10%;
+    }
+    
+    .selfIntroLinks {
+        font-size: 10px;
+        padding: 5px;
+        margin: 0 10%;
+    }
 }
