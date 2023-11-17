@@ -393,12 +393,13 @@ header {
 }
 
 /* 例如，将以下代码添加到你的CSS文件中 */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
     /* 在小屏幕上的样式调整 */
     .button-container {
         top: 1%; /* 调整按钮距离顶部的距离 */
-        margin-left: 40%;
-        margin-right: 15%; /* 调整按钮距离右侧的距离 */
+        display: flex;
+        justify-content: center; /* 水平方向上均匀分布 */
+        align-items: center; /* 竖直方向上居中对齐 */
         position: absolute;
     }
 
@@ -413,10 +414,10 @@ header {
     }
 
     .square1 {
-        width:80%;
+        width:50%;
         height: 40%;
-        margin-top: 15%;
-        margin-left: 10%;
+        margin-top: 13%;
+        margin-left: 25%;
         float: none;
     }
 
@@ -460,38 +461,40 @@ header {
     }
 
     .bodyBigtext {
-        font-size: 30px;
+        font-size: 15px;
         padding: 1px;
-        margin: 0 10%;
+        margin: 0 46%;
     }
     
     .bodyChineseBigtext {
-        font-size: 20px;
+        font-size: 10px;
         padding: 1px;
-        margin: 0 10%;
+        margin: 0 46%;
+        display: none;
     }
 
     .bodyMidtext {
-        font-size: 15px;
+        font-size: 8px;
         padding: 1px;
-        margin: 0 10%;
+        margin: 0 48%;
+        display: none;
     }
 
     .bodytext {
-        font-size: 15px;
+        font-size: 8px;
         padding: 1px;
-        margin: 0 10%;
+        margin: 0 5%;
     }
 
     .selfIntroApply {
         font-size: 10px;
         padding: 5px;
-        margin: 0 10%;
+        margin: 0 36%;
     }
     
     .selfIntroLinks {
         font-size: 10px;
         padding: 5px;
-        margin: 0 10%;
+        margin: 0 36%;
     }
 }
