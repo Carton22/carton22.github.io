@@ -135,7 +135,7 @@ img {
 	text-decoration: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
 	.square {
 		margin-top: 25%;
         margin-left: 5%;
@@ -155,7 +155,6 @@ img {
     .button-container {
         top: 3%; /* 调整按钮距离顶部的距离 */
         margin-left: 50%;
-        /* margin-right: 7%; 调整按钮距离右侧的距离 */
         position: absolute;
     }
 

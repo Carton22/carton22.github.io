@@ -150,7 +150,7 @@ html, body {
 	text-decoration: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
 	.content-table {
 		margin-top: 15%;
 		width: 90%;
