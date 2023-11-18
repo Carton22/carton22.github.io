@@ -152,13 +152,13 @@ html, body {
 
 @media screen and (max-width: 1000px) {
 	.content-table {
-		margin-top: 12%;
+		margin-top: 15%;
 		width: 90%;
 	}
 
     .button-container {
         top: 1%; /* 调整按钮距离顶部的距离 */
-        margin-left: 40%;
+        margin-left: 50%;
         margin-right: 15%; /* 调整按钮距离右侧的距离 */
         position: absolute;
     }
@@ -174,8 +174,8 @@ html, body {
     }
 
 	.section-image-large iframe {
-		width: 448px;
-		height: 252px;
+		width: 320px;
+		height: 180px;
 	}
 
 	.section-image-large,
