@@ -396,7 +396,7 @@ header {
 	/* 在小屏幕上的样式调整 */
 	.button-container {
 		top: 1%; /* 调整按钮距离顶部的距离 */
-        right:10%;
+        right:11%;
 		display: flex;
 		justify-content: center; /* 水平方向上均匀分布 */
 		align-items: center; /* 竖直方向上居中对齐 */
@@ -481,7 +481,7 @@ header {
 	}
 
 	.bodytext {
-		font-size: 8px;
+		font-size: 12px;
 		padding: 1px;
 		margin: 0 5%;
 	}
