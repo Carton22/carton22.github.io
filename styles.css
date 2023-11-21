@@ -396,6 +396,7 @@ header {
 	/* 在小屏幕上的样式调整 */
 	.button-container {
 		top: 1%; /* 调整按钮距离顶部的距离 */
+        right:10%;
 		display: flex;
 		justify-content: center; /* 水平方向上均匀分布 */
 		align-items: center; /* 竖直方向上居中对齐 */
@@ -414,7 +415,7 @@ header {
 
 	.square1 {
 		width: 50%;
-		height: 30%;
+		height: 25%;
 		margin-top: 17%;
 		margin-left: 25%;
 		float: none;
@@ -488,12 +489,12 @@ header {
 	.selfIntroApply {
 		font-size: 10px;
 		padding: 5px;
-		margin: 0 36%;
+		margin: 0 20%;
 	}
 
 	.selfIntroLinks {
 		font-size: 10px;
 		padding: 5px;
-		margin: 0 36%;
+		margin: 0 18%;
 	}
 }

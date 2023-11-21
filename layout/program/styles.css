@@ -159,7 +159,7 @@ html, body {
     .button-container {
         top: 1%; /* 调整按钮距离顶部的距离 */
         margin-left: 50%;
-        margin-right: 15%; /* 调整按钮距离右侧的距离 */
+        margin-right: 5%; /* 调整按钮距离右侧的距离 */
         position: absolute;
     }
 
