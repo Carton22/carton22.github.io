@@ -106,6 +106,7 @@
 
 body {
 	background: linear-gradient(to bottom, #426B69, #8BB174);
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 html, body {
@@ -159,7 +160,7 @@ html, body {
     .button-container {
         top: 1%; /* 调整按钮距离顶部的距离 */
         margin-left: 50%;
-        margin-right: 5%; /* 调整按钮距离右侧的距离 */
+        margin-right: 7%; /* 调整按钮距离右侧的距离 */
         position: absolute;
     }
 
