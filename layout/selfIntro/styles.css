@@ -108,6 +108,7 @@ img {
     position:relative;
     margin-top: 6%;
     margin-left: 25%;
+    margin-bottom: 5%;
     justify-content: center;
     align-items: center;
     border-radius: 40px; /* 圆角 */

@@ -17,7 +17,7 @@ header {
 .square1 {
 	width: 40%;
 	height: 80%;
-	background-color: #b5ca8d; /* 设置方块背景颜色 */
+	background-color: rgb(180, 201, 140); /* 设置方块背景颜色 */
 	display: flex;
 	justify-content: center;
 	align-items: center;
