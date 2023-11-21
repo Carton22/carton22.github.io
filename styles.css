@@ -1,500 +1,499 @@
 /* 设置全局样式 */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 /* 设置头部样式 */
 header {
-    display: flex;
-    justify-content: space-between;
-    background-color: #333; /* 设置头部背景颜色 */
-    padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #333; /* 设置头部背景颜色 */
+	padding: 20px;
 }
 
 /* 设置左上方块的样式 */
 .square1 {
-    width: 40%;
-    height: 80%;
-    background-color: #B5CA8D; /* 设置方块背景颜色 */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 40px; /* 圆角 */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
-    float: left; 
-    margin-left: 5%;
-    margin-top: 5%;
-    transition: transform 0.2s ease-in-out;
+	width: 40%;
+	height: 80%;
+	background-color: #b5ca8d; /* 设置方块背景颜色 */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 40px; /* 圆角 */
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
+	float: left;
+	margin-left: 5%;
+	margin-top: 5%;
+	transition: transform 0.2s ease-in-out;
 }
 
 .square1:hover {
-    background-color: #87BBA2; /* 设置方块背景颜色 */
-    transform: scale(1.05);
+	background-color: #87bba2; /* 设置方块背景颜色 */
+	transform: scale(1.05);
 }
 
 .square1 square1t1 {
-    font-size: 6em;
-    color: #222E50;
-    text-align: center;
-    margin: 10%;
-    padding: 10px;
-    font-family: 'Poppins', sans-serif;
-    font:bold;
-    top: 100px;
+	font-size: 6em;
+	color: #222e50;
+	text-align: center;
+	margin: 10%;
+	padding: 10px;
+	font-family: "Poppins", sans-serif;
+	font: bold;
+	top: 100px;
 }
 
 .square1 square1t1 a {
-    text-decoration: none;
-    color: #222E50; /* 设置链接颜色 */
+	text-decoration: none;
+	color: #222e50; /* 设置链接颜色 */
 }
 
-.square1 square1t1 img{
-    width: 80%; /* 设置图片容器的宽度 */
-    height: 80%; /* 设置图片容器的高度 */
-    overflow: hidden; /* 隐藏溢出的部分，以显示圆形 */
-    border-radius: 50%;
-    display: block;
-    padding: 10%;
-    justify-content: center;
-    box-shadow: 10px 0 20px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
-    max-width: 100%;
-} 
+.square1 square1t1 img {
+	width: 80%; /* 设置图片容器的宽度 */
+	height: 80%; /* 设置图片容器的高度 */
+	overflow: hidden; /* 隐藏溢出的部分，以显示圆形 */
+	border-radius: 50%;
+	display: block;
+	padding: 10%;
+	justify-content: center;
+	box-shadow: 10px 0 20px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+	max-width: 100%;
+}
 
 .square1 square1t1:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 /* 设置左下方块的样式 */
 .square2 {
-    width: 40%;
-    height: 40%;
-    background: linear-gradient(to bottom, #8BB174, #426B69);
-    position: absolute;
-    top: 105%;
-    right: 9%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 40px; /* 圆角 */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
-    transition: transform 0.2s ease-in-out;
+	width: 40%;
+	height: 40%;
+	background: linear-gradient(to bottom, #8bb174, #426b69);
+	position: absolute;
+	top: 105%;
+	right: 9%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 40px; /* 圆角 */
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
+	transition: transform 0.2s ease-in-out;
 }
 
 .square2:hover {
-    background-color: #93A8AC; /* 设置方块背景颜色 */
-    transform: scale(1.05);
+	background-color: #93a8ac; /* 设置方块背景颜色 */
+	transform: scale(1.05);
 }
 
 .square2 square2t1 {
-    font-size: 5em;
-    color: #ffffff;
-    text-align: center;
-    margin: 10%;
-    padding: 5px;
-    font-family: 'Poppins', sans-serif;
-    font:bold;
+	font-size: 5em;
+	color: #ffffff;
+	text-align: center;
+	margin: 10%;
+	padding: 5px;
+	font-family: "Poppins", sans-serif;
+	font: bold;
 }
 
 .square2 square2t1 a {
-    text-decoration: none;
-    color: #ffffff; /* 设置链接颜色 */
+	text-decoration: none;
+	color: #ffffff; /* 设置链接颜色 */
 }
 
-
 .square2 square2t1:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 
 /* 设置右上方块的样式 */
 .square3 {
-    width: 40%;
-    height: 30%;
-    background: linear-gradient(to bottom, #426B69, #8BB174);
-    position: absolute;
-    top: 153%;
-    left: 7%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 40px; /* 圆角 */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
-    transition: transform 0.2s ease-in-out;
+	width: 40%;
+	height: 30%;
+	background: linear-gradient(to bottom, #426b69, #8bb174);
+	position: absolute;
+	top: 153%;
+	left: 7%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 40px; /* 圆角 */
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
+	transition: transform 0.2s ease-in-out;
 }
 
 .square3:hover {
-    background-color: #F9DB6D; /* 设置方块背景颜色 */
-    transform: scale(1.05);
+	background-color: #f9db6d; /* 设置方块背景颜色 */
+	transform: scale(1.05);
 }
 
 .square3 square3t1 {
-    font-size: 4em;
-    color: #ffffff;
-    text-align: center;
-    margin: 10%;
-    padding: 10px;
-    font-family: 'Poppins', sans-serif;
-    font:bold;
+	font-size: 4em;
+	color: #ffffff;
+	text-align: center;
+	margin: 10%;
+	padding: 10px;
+	font-family: "Poppins", sans-serif;
+	font: bold;
 }
 
 .square3 square3t1 a {
-    text-decoration: none; /* 去掉下划线 */
-    color: #ffffff; /* 设置链接颜色 */
+	text-decoration: none; /* 去掉下划线 */
+	color: #ffffff; /* 设置链接颜色 */
 }
 
 .square3 square3t1:hover {
-    text-decoration: line-through;
+	text-decoration: line-through;
 }
 /* 设置右下方块的样式 */
 .square4 {
-    width: 25%;
-    height: 30%;
-    background-color: #222E50; /* 设置方块背景颜色 */
-    position: absolute;
-    top: 115%;
-    left: 23%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 40px; /* 圆角 */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
-    transition: transform 0.2s ease-in-out;
+	width: 25%;
+	height: 30%;
+	background-color: #222e50; /* 设置方块背景颜色 */
+	position: absolute;
+	top: 115%;
+	left: 23%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 40px; /* 圆角 */
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
+	transition: transform 0.2s ease-in-out;
 }
 
 .square4:hover {
-    background-color: #a7c288; /* 设置方块背景颜色 */
-    transform: scale(1.05);
+	background-color: #a7c288; /* 设置方块背景颜色 */
+	transform: scale(1.05);
 }
 
 .square4 square4t1 {
-    font-size: 3em;
-    color: #ffffff;
-    text-align: center;
-    margin: 10%;
-    padding: 10px;
-    font-family: 'Poppins', sans-serif;
-    font:bold;
+	font-size: 3em;
+	color: #ffffff;
+	text-align: center;
+	margin: 10%;
+	padding: 10px;
+	font-family: "Poppins", sans-serif;
+	font: bold;
 }
 
-.square4 square4t1 a{
-    text-decoration: none; /* 去掉下划线 */
-    color: #ffffff; /* 设置链接颜色 */
+.square4 square4t1 a {
+	text-decoration: none; /* 去掉下划线 */
+	color: #ffffff; /* 设置链接颜色 */
 }
 
 .square5 {
-    width: 25%;
-    height: 30%;
-    background-color: #222E50; /* 设置方块背景颜色 */
-    position: absolute;
-    top: 150%;
-    right: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 40px; /* 圆角 */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
-    transition: transform 0.2s ease-in-out;
+	width: 25%;
+	height: 30%;
+	background-color: #222e50; /* 设置方块背景颜色 */
+	position: absolute;
+	top: 150%;
+	right: 25%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 40px; /* 圆角 */
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
+	transition: transform 0.2s ease-in-out;
 }
 
 .square5:hover {
-    background-color: #a7c288; /* 设置方块背景颜色 */
-    transform: scale(1.05);
+	background-color: #a7c288; /* 设置方块背景颜色 */
+	transform: scale(1.05);
 }
 
 .square5 square5t1 {
-    font-size: 3em;
-    color: #ffffff;
-    text-align: center;
-    margin: 10%;
-    padding: 10px;
-    font-family: 'Poppins', sans-serif;
-    font:bold;
+	font-size: 3em;
+	color: #ffffff;
+	text-align: center;
+	margin: 10%;
+	padding: 10px;
+	font-family: "Poppins", sans-serif;
+	font: bold;
 }
 
-.square5 square5t1 a{
-    text-decoration: none; /* 去掉下划线 */
-    color: #ffffff; /* 设置链接颜色 */
+.square5 square5t1 a {
+	text-decoration: none; /* 去掉下划线 */
+	color: #ffffff; /* 设置链接颜色 */
 }
 
 /* 设置底栏样式 */
 .footer {
-    width: 100%;
-    height: 9%;
-    background: transparent;
-    position: absolute;
-    bottom: -100%;
-    display: flex;
-    justify-content: center; /* 水平方向上均匀分布 */
-    align-items: center; /* 竖直方向上居中对齐 */
+	width: 100%;
+	height: 9%;
+	background: transparent;
+	position: absolute;
+	bottom: -100%;
+	display: flex;
+	justify-content: center; /* 水平方向上均匀分布 */
+	align-items: center; /* 竖直方向上居中对齐 */
 }
 
 /* 设置底栏文字 */
-.footer footert1{
-    font-size: 15px;
-    color: #b5b0b0;
-    text-align: center;
-    padding: 10px;
-    font-family: 'Josefin Sans', sans-serif;
-    font: bold;
+.footer footert1 {
+	font-size: 15px;
+	color: #b5b0b0;
+	text-align: center;
+	padding: 10px;
+	font-family: "Josefin Sans", sans-serif;
+	font: bold;
 }
 
 /* 设置链接文本的颜色 */
 .footer footert1 a {
-    text-decoration: none; /* 去掉下划线 */
-    color: #7d918d; /* 设置链接颜色 */
+	text-decoration: none; /* 去掉下划线 */
+	color: #7d918d; /* 设置链接颜色 */
 }
 
 /* 设置链接文本的悬停颜色 */
 .footer footert1 a:hover {
-    text-decoration: none; /* 鼠标悬停时添加下划线 */
-    color: #ffffff; /* 设置悬停颜色 */
+	text-decoration: none; /* 鼠标悬停时添加下划线 */
+	color: #ffffff; /* 设置悬停颜色 */
 }
 
 .page {
-    height: 100vh; /* 设置每个页面的高度为视口高度的一半 */
-    overflow: auto; /* 允许内容滚动 */
-    background: linear-gradient(to left,#2a3a21,#354249);
+	height: 100vh; /* 设置每个页面的高度为视口高度的一半 */
+	overflow: auto; /* 允许内容滚动 */
+	background: linear-gradient(to left, #2a3a21, #354249);
 }
 
 .selfIntroApply {
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
-    margin: 0 10%;
-    font-family: 'Poppins', sans-serif;
-    font:bold;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px;
+	margin: 0 10%;
+	font-family: "Poppins", sans-serif;
+	font: bold;
 }
 
 .selfIntroLinks {
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
-    margin: 0 10%;
-    font-family: 'Poppins', sans-serif;
-    font:bold;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px;
+	margin: 0 10%;
+	font-family: "Poppins", sans-serif;
+	font: bold;
 }
 
-.selfIntroLinks a{
-    color: #ffffff;
-    text-decoration: none;
+.selfIntroLinks a {
+	color: #ffffff;
+	text-decoration: none;
 }
 
 .bodyBigtext {
-    font-size: 50px;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px;
-    margin: 0 10%;
-    font-family: 'Poppins', sans-serif;
-    font:bold;
-    display: inline-block;
+	font-size: 50px;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	margin: 0 10%;
+	font-family: "Poppins", sans-serif;
+	font: bold;
+	display: inline-block;
 }
 
 .bodyChineseBigtext {
-    font-size: 40px;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px;
-    margin: 0 10%;
-    font-family: 'Noto Serif SC', serif;
-    font-weight: bold;
-    display: inline-block;
+	font-size: 40px;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	margin: 0 10%;
+	font-family: "Noto Serif SC", serif;
+	font-weight: bold;
+	display: inline-block;
 }
 
 .bodyMidtext {
-    font-size: 30px;
-    color: #ffffff;
-    text-align: center;
-    padding: 10px;
-    margin: 0 10%;
-    font-family: 'Poppins', sans-serif;
-    font:bold;
-    display: inline-block;
+	font-size: 30px;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+	margin: 0 10%;
+	font-family: "Poppins", sans-serif;
+	font: bold;
+	display: inline-block;
 }
 
 .bodytext {
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    padding: 20px;
-    margin: 0 10%;
-    font-family: 'Josefin Sans', sans-serif;
-    text-align:start;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	padding: 20px;
+	margin: 0 10%;
+	font-family: "Josefin Sans", sans-serif;
+	text-align: start;
 }
 
-.bodytext a{
-    color: #91af91;
-    display: inline-block;
-    text-decoration: none;
+.bodytext a {
+	color: #91af91;
+	display: inline-block;
+	text-decoration: none;
 }
 
 .bodytext a:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .textContainer {
-    display: flex; 
-    flex-direction: column; 
-    align-items: flex-start;
-    margin-top: 5%;
-    z-index: 2;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 5%;
+	z-index: 2;
 }
 
 .CoverImage {
-    width: auto; 
-    height: 80%; 
-    float: left; 
-    box-shadow: 50px 0 50px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 40px; /* 圆角 */
-    margin-left: 5%;
-    margin-top: 5%;
+	width: auto;
+	height: 80%;
+	float: left;
+	box-shadow: 50px 0 50px rgba(0, 0, 0, 0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 40px; /* 圆角 */
+	margin-left: 5%;
+	margin-top: 5%;
 }
 
 .button-container {
-    position: absolute; /* 设置绝对定位 */
-    top: 1%; /* 距离顶部的距离 */
-    right: 5%; /* 距离右侧的距离 */
-    gap: 20px;
-    display: flex;
-    flex-direction: row; /* 将按钮水平排列 */
+	position: absolute; /* 设置绝对定位 */
+	top: 1%; /* 距离顶部的距离 */
+	right: 5%; /* 距离右侧的距离 */
+	gap: 20px;
+	display: flex;
+	flex-direction: row; /* 将按钮水平排列 */
 }
 
 .button {
-    width: 120px;
-    height: 60px;
-    background-color: transparent;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
-    transition: transform 0.2s ease-in-out;
-    cursor: pointer;
+	width: 120px;
+	height: 60px;
+	background-color: transparent;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+	transition: transform 0.2s ease-in-out;
+	cursor: pointer;
 }
 
 .button:hover {
-    transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .button span {
-    font-size: 14px;
-    font-weight: bold;
-    color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
 }
 
-.button-container a{
+.button-container a {
 	text-decoration: none;
 }
 
 /* 例如，将以下代码添加到你的CSS文件中 */
 @media screen and (max-width: 1200px) {
-    /* 在小屏幕上的样式调整 */
-    .button-container {
-        top: 1%; /* 调整按钮距离顶部的距离 */
-        display: flex;
-        justify-content: center; /* 水平方向上均匀分布 */
-        align-items: center; /* 竖直方向上居中对齐 */
-        position: absolute;
-    }
+	/* 在小屏幕上的样式调整 */
+	.button-container {
+		top: 1%; /* 调整按钮距离顶部的距离 */
+		display: flex;
+		justify-content: center; /* 水平方向上均匀分布 */
+		align-items: center; /* 竖直方向上居中对齐 */
+		position: absolute;
+	}
 
-    .button {
-        width: 60px;
-        height: 40px;
-        margin-bottom: 10px; /* 调整按钮之间的间距 */
-    }
+	.button {
+		width: 60px;
+		height: 40px;
+		margin-bottom: 10px; /* 调整按钮之间的间距 */
+	}
 
-    .button span {
-        font-size: 10px;
-    }
+	.button span {
+		font-size: 10px;
+	}
 
-    .square1 {
-        width:50%;
-        height: 30%;
-        margin-top: 17%;
-        margin-left: 25%;
-        float: none;
-    }
+	.square1 {
+		width: 50%;
+		height: 30%;
+		margin-top: 17%;
+		margin-left: 25%;
+		float: none;
+	}
 
-    .square1 square1t1 a{
-        font-size: 30px;
-    }
+	.square1 square1t1 a {
+		font-size: 30px;
+	}
 
-    .square1 square1t1 img{
-        width: 40%; /* 设置图片容器的宽度 */
-        height: 40%; /* 设置图片容器的高度 */
-        padding: 10%;
-        box-shadow: 10px 0 20px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
-        border-radius: 50%;
-        margin-bottom: 10%;
-        margin-left: 20%;
-    } 
+	.square1 square1t1 img {
+		width: 40%; /* 设置图片容器的宽度 */
+		height: 40%; /* 设置图片容器的高度 */
+		padding: 10%;
+		box-shadow: 10px 0 20px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
+		border-radius: 50%;
+		margin-bottom: 10%;
+		margin-left: 20%;
+	}
 
-    .square2 square2t1 {
-        font-size: 30px;
-    }
+	.square2 square2t1 {
+		font-size: 30px;
+	}
 
-    .square3 square3t1 {
-        font-size: 30px;
-    }
+	.square3 square3t1 {
+		font-size: 30px;
+	}
 
-    .square4 square4t1 a{
-        font-size: 20px;
-    }
+	.square4 square4t1 a {
+		font-size: 20px;
+	}
 
-    .square5 square5t1 {
-        font-size: 15px;
-    }
+	.square5 square5t1 {
+		font-size: 15px;
+	}
 
-    .footer footert1 a img{
-        width: 15px;
-        height: 15px;
-    }
+	.footer footert1 a img {
+		width: 15px;
+		height: 15px;
+	}
 
-    .footer footert1{
-        font-size: 10px;
-    }
+	.footer footert1 {
+		font-size: 10px;
+	}
 
-    .bodyBigtext {
-        font-size: 15px;
-        padding: 1px;
-        margin: 0 40%;
-    }
-    
-    .bodyChineseBigtext {
-        font-size: 10px;
-        padding: 1px;
-        margin: 0 46%;
-        display: none;
-    }
+	.bodyBigtext {
+		font-size: 15px;
+		padding: 1px;
+		margin: 0 40%;
+	}
 
-    .bodyMidtext {
-        font-size: 8px;
-        padding: 1px;
-        margin: 0 48%;
-        display: none;
-    }
+	.bodyChineseBigtext {
+		font-size: 10px;
+		padding: 1px;
+		margin: 0 46%;
+		display: none;
+	}
 
-    .bodytext {
-        font-size: 8px;
-        padding: 1px;
-        margin: 0 5%;
-    }
+	.bodyMidtext {
+		font-size: 8px;
+		padding: 1px;
+		margin: 0 48%;
+		display: none;
+	}
 
-    .selfIntroApply {
-        font-size: 10px;
-        padding: 5px;
-        margin: 0 36%;
-    }
-    
-    .selfIntroLinks {
-        font-size: 10px;
-        padding: 5px;
-        margin: 0 36%;
-    }
+	.bodytext {
+		font-size: 8px;
+		padding: 1px;
+		margin: 0 5%;
+	}
+
+	.selfIntroApply {
+		font-size: 10px;
+		padding: 5px;
+		margin: 0 36%;
+	}
+
+	.selfIntroLinks {
+		font-size: 10px;
+		padding: 5px;
+		margin: 0 36%;
+	}
 }

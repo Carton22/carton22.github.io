@@ -13,7 +13,7 @@
     color: #353232;
     text-align: center;
     padding: 10px;
-    margin: 0 10%;
+    margin: 0 20%;
     font-family: 'Poppins', sans-serif;
     font:bold;
 }
@@ -23,8 +23,20 @@
     text-decoration: none;
 }
 
+.page{
+	height: 100vh; /* Set container height to 100% of viewport height */
+	overflow: auto;
+	position: relative;
+}
+
 body {
-    background: linear-gradient(to right,#a7c288,#d9bf75);
+    background: linear-gradient(to bottom, #426B69, #8BB174);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
 }
 
 .bodyBigtext {
@@ -74,22 +86,24 @@ body {
 }
 
 img {
-    width: 250px; 
-    height: 250px; /* 设置图片容器的高度 */
+    width: 30%; 
+    height: auto; /* 设置图片容器的高度 */
     overflow: hidden; /* 隐藏溢出的部分，以显示圆形 */
-    border-radius: 80%;
+    border-radius: 50%;
     display: block;
-    padding: 40px;
+    padding: 3%;
     box-shadow: 10px 0 20px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
     margin: 1% auto;
     position: relative;
     z-index: 1;
+	justify-content: center;
+	max-width: 100%;
 }
 
 .square {
     width: 50%;
-    height: 80%;
-    background: linear-gradient(to bottom, #426B69, #8BB174);
+    height: 100%;
+    background: #ffffff;
     position:relative;
     margin-top: 6%;
     margin-left: 25%;
@@ -142,9 +156,9 @@ img {
 		width: 90%;
 	}
 
-    .square img{
+    img{
         width: 40%; /* 设置图片容器的宽度 */
-        height: 40%; /* 设置图片容器的高度 */
+        height: auto; /* 设置图片容器的高度 */
         padding: 10%;
         box-shadow: 10px 0 20px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
         border-radius: 50%;
@@ -171,7 +185,7 @@ img {
     .bodyBigtext {
         font-size: 30px;
         padding: 1px;
-        margin: 0 10%;
+        margin: 0 5%;
     }
     
     .bodyChineseBigtext {
