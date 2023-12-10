@@ -391,12 +391,45 @@ header {
 	text-decoration: none;
 }
 
+.container {
+    display: flex;
+}
+
+.typed-out {
+    overflow: hidden;
+    font-family: "Josefin Sans", sans-serif;
+    color: #CC3F0C;
+    padding: 10px;
+    margin: 0 10%;
+    border-right: 0.15em solid #ffa500;
+    white-space: nowrap;
+    animation: typing 1s steps(20, end) forwards, blink 1s infinite alternate;
+    font-size: 24px;
+    font-style: italic;
+    width: 0;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 88%;
+    }
+}
+
+@keyframes blink {
+    to {
+        opacity: 70%;
+    }
+}
+
 /* 例如，将以下代码添加到你的CSS文件中 */
 @media screen and (max-width: 1200px) {
 	/* 在小屏幕上的样式调整 */
 	.button-container {
 		top: 1%; /* 调整按钮距离顶部的距离 */
-        right:11%;
+		right: 11%;
 		display: flex;
 		justify-content: center; /* 水平方向上均匀分布 */
 		align-items: center; /* 竖直方向上居中对齐 */
@@ -496,5 +529,11 @@ header {
 		font-size: 10px;
 		padding: 5px;
 		margin: 0 18%;
+	}
+
+	.typed-out {
+		font-size: 14px;
+		padding: 1px;
+		margin: 0 5%;
 	}
 }
