@@ -1,5 +1,7 @@
-body {
-	background: linear-gradient(to bottom, #426b69, #8bb174);
+.page{
+	height: 100vh; /* Set container height to 100% of viewport height */
+	overflow: auto;
+	position: relative;
 }
 
 html,
@@ -7,6 +9,7 @@ body {
 	height: 100vh;
 	margin: 0;
 	overflow: hidden;
+	background: linear-gradient(to bottom, #426b69, #8bb174);
 }
 
 .button-container {
@@ -54,7 +57,7 @@ body {
 	display: flex;
 	overflow: hidden;
     position: absolute;
-    /* margin-top: 3%; */
+    margin-top: 2%;
     margin-left: 19%;
 	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
@@ -63,27 +66,57 @@ body {
 	font-size: 50px;
 	font-weight: bold;
 	margin-top: 3%;
-	padding: 2% 0;
+	/* padding: 2% 0; */
 	text-align: center;
 	color: #ffffff;
 	font-family: 'Montserrat', sans-serif;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);	
 }
 
+.photoTitle {
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 40%;
+	/* padding: 2% 0; */
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);	
+}
+
+.photoContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.photoContainer img {
+    width: 30%; 
+    margin-bottom: 20px; 
+	border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.photoContainer p {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
 
 @media screen and (max-width: 1200px) {
 
     .button-container {
-        top: 1%; /* 调整按钮距离顶部的距离 */
+        top: 1%;
         margin-left: 50%;
-        margin-right: 7%; /* 调整按钮距离右侧的距离 */
+        margin-right: 7%;
         position: absolute;
     }
 
     .button {
         width: 60px;
         height: 40px;
-        margin-bottom: 10px; /* 调整按钮之间的间距 */
+        margin-bottom: 10px; 
     }
 
     .button span {
@@ -96,6 +129,19 @@ body {
 	}
 
 	.map{
-		margin-top: 40%;
+		margin-top: 10%;
+		height: 30%;
+	}
+
+	.bigTitle{
+		margin-top: 20%;
+	}
+
+	.photoTitle{
+		margin-top: 80%;
+	}
+
+	.photoContainer img {
+		width: 100%; 
 	}
 }
