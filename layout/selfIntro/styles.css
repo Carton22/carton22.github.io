@@ -24,7 +24,7 @@
 }
 
 .page{
-	height: 100vh; /* Set container height to 100% of viewport height */
+	height: 100vh; 
 	overflow: auto;
 	position: relative;
 }
@@ -73,7 +73,7 @@ html, body {
     text-align: center;
     padding: 5px;
     margin: 0 10%;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align:start;
 }
 
@@ -88,8 +88,8 @@ html, body {
 
 img {
     width: 30%; 
-    height: auto; /* 设置图片容器的高度 */
-    overflow: hidden; /* 隐藏溢出的部分，以显示圆形 */
+    height: auto; 
+    overflow: hidden;
     border-radius: 50%;
     display: block;
     padding: 3%;

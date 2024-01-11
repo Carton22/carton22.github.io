@@ -1,6 +1,5 @@
 body {
 	background: linear-gradient(to bottom, #426b69, #8bb174);
-	font-family: Arial, Helvetica, sans-serif;
 }
 
 html,
@@ -40,6 +39,7 @@ body {
 	font-size: 14px;
 	font-weight: bold;
 	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .button-container a {
@@ -54,9 +54,22 @@ body {
 	display: flex;
 	overflow: hidden;
     position: absolute;
-    margin-top: 10%;
-    margin-left: 20%;
+    /* margin-top: 3%; */
+    margin-left: 19%;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
 }
+
+.bigTitle {
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: 3%;
+	padding: 2% 0;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);	
+}
+
 
 @media screen and (max-width: 1200px) {
 
