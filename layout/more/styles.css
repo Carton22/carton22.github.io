@@ -9,7 +9,7 @@ body {
 	height: 100vh;
 	margin: 0;
 	overflow: hidden;
-	background: linear-gradient(to bottom, #426b69, #8bb174);
+	background: linear-gradient(to left, #f7ce55, #fadf88);
 }
 
 .button-container {
@@ -24,7 +24,7 @@ body {
 .button {
 	width: 120px;
 	height: 60px;
-	background-color: transparent;
+	background-color: #832d34;
 	border-radius: 30px;
 	display: flex;
 	align-items: center;

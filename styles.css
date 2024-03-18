@@ -17,7 +17,7 @@ header {
 .square1 {
 	width: 40%;
 	height: 80%;
-	background-color: rgb(180, 201, 140); /* 设置方块背景颜色 */
+	background-color: #841825; /* 设置方块背景颜色 */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -30,13 +30,13 @@ header {
 }
 
 .square1:hover {
-	background-color: #87bba2; /* 设置方块背景颜色 */
+	background-color: #8e2431; /* 设置方块背景颜色 */
 	transform: scale(1.05);
 }
 
 .square1 square1t1 {
 	font-size: 6em;
-	color: #222e50;
+	color: #ffffff;
 	text-align: center;
 	margin: 10%;
 	padding: 10px;
@@ -47,7 +47,7 @@ header {
 
 .square1 square1t1 a {
 	text-decoration: none;
-	color: #222e50; /* 设置链接颜色 */
+	color: #fadf88; /* 设置链接颜色 */
 }
 
 .square1 square1t1 img {
@@ -70,7 +70,7 @@ header {
 .square2 {
 	width: 40%;
 	height: 40%;
-	background: linear-gradient(to bottom, #8bb174, #426b69);
+	background: #8e2431;
 	position: absolute;
 	top: 105%;
 	right: 9%;
@@ -83,7 +83,7 @@ header {
 }
 
 .square2:hover {
-	background-color: #93a8ac; /* 设置方块背景颜色 */
+	background-color: #841825; /* 设置方块背景颜色 */
 	transform: scale(1.05);
 }
 
@@ -110,7 +110,7 @@ header {
 .square3 {
 	width: 40%;
 	height: 30%;
-	background: linear-gradient(to bottom, #426b69, #8bb174);
+	background: #8e2431;
 	position: absolute;
 	top: 153%;
 	left: 7%;
@@ -123,7 +123,7 @@ header {
 }
 
 .square3:hover {
-	background-color: #f9db6d; /* 设置方块背景颜色 */
+	background-color: #841825; /* 设置方块背景颜色 */
 	transform: scale(1.05);
 }
 
@@ -149,7 +149,7 @@ header {
 .square4 {
 	width: 25%;
 	height: 30%;
-	background-color: #222e50; /* 设置方块背景颜色 */
+	background-color: #f7be55; /* 设置方块背景颜色 */
 	position: absolute;
 	top: 115%;
 	left: 23%;
@@ -162,7 +162,7 @@ header {
 }
 
 .square4:hover {
-	background-color: #a7c288; /* 设置方块背景颜色 */
+	background-color: #f8b63b; /* 设置方块背景颜色 */
 	transform: scale(1.05);
 }
 
@@ -184,7 +184,7 @@ header {
 .square5 {
 	width: 25%;
 	height: 30%;
-	background-color: #222e50; /* 设置方块背景颜色 */
+	background-color: #f7be55; /* 设置方块背景颜色 */
 	position: absolute;
 	top: 150%;
 	right: 25%;
@@ -197,7 +197,7 @@ header {
 }
 
 .square5:hover {
-	background-color: #a7c288; /* 设置方块背景颜色 */
+	background-color: #f8b63b; /* 设置方块背景颜色 */
 	transform: scale(1.05);
 }
 
@@ -231,7 +231,7 @@ header {
 /* 设置底栏文字 */
 .footer footert1 {
 	font-size: 15px;
-	color: #b5b0b0;
+	color: #832d34;
 	text-align: center;
 	padding: 10px;
 	font-family: "Josefin Sans", sans-serif;
@@ -241,24 +241,24 @@ header {
 /* 设置链接文本的颜色 */
 .footer footert1 a {
 	text-decoration: none; /* 去掉下划线 */
-	color: #7d918d; /* 设置链接颜色 */
+	color: #832d34; /* 设置链接颜色 */
 }
 
 /* 设置链接文本的悬停颜色 */
 .footer footert1 a:hover {
-	text-decoration: none; /* 鼠标悬停时添加下划线 */
-	color: #ffffff; /* 设置悬停颜色 */
+	text-decoration: underline; /* 鼠标悬停时添加下划线 */
+	color: #67121c; /* 设置悬停颜色 */
 }
 
 .page {
 	height: 100vh; /* 设置每个页面的高度为视口高度的一半 */
 	overflow: auto; /* 允许内容滚动 */
-	background: linear-gradient(to left, #2a3a21, #354249);
+	background: linear-gradient(to left, #f7ce55, #fadf88);
 }
 
 .selfIntroApply {
 	font-size: 20px;
-	color: #ffffff;
+	color: #333333;
 	text-align: center;
 	padding: 10px;
 	margin: 0 10%;
@@ -268,7 +268,7 @@ header {
 
 .selfIntroLinks {
 	font-size: 20px;
-	color: #ffffff;
+	color: #333333;
 	text-align: center;
 	padding: 10px;
 	margin: 0 10%;
@@ -277,13 +277,13 @@ header {
 }
 
 .selfIntroLinks a {
-	color: #ffffff;
+	color: #333333;
 	text-decoration: none;
 }
 
 .bodyBigtext {
 	font-size: 50px;
-	color: #ffffff;
+	color: #333333;
 	text-align: center;
 	padding: 10px;
 	margin: 0 10%;
@@ -294,7 +294,7 @@ header {
 
 .bodyChineseBigtext {
 	font-size: 40px;
-	color: #ffffff;
+	color: #333333;
 	text-align: center;
 	padding: 10px;
 	margin: 0 10%;
@@ -305,7 +305,7 @@ header {
 
 .bodyMidtext {
 	font-size: 30px;
-	color: #ffffff;
+	color: #333333;
 	text-align: center;
 	padding: 10px;
 	margin: 0 10%;
@@ -316,16 +316,16 @@ header {
 
 .bodytext {
 	font-size: 20px;
-	color: #ffffff;
+	color: #333333;
 	text-align: center;
 	padding: 10px;
 	margin: 0 10%;
-	font-family: 'Montserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 	text-align: start;
 }
 
 .bodytext a {
-	color: #91af91;
+	color: #6f131d;
 	display: inline-block;
 	text-decoration: none;
 }
@@ -367,7 +367,7 @@ header {
 .button {
 	width: 120px;
 	height: 60px;
-	background-color: transparent;
+	background-color: #832d34;
 	border-radius: 30px;
 	display: flex;
 	align-items: center;
@@ -392,36 +392,36 @@ header {
 }
 
 .container {
-    display: flex;
+	display: flex;
 }
 
 .typed-out {
-    overflow: hidden;
-    font-family: "Josefin Sans", sans-serif;
-    color: #CC3F0C;
-    padding: 10px;
-    margin: 0 10%;
-    border-right: 0.15em solid #ffa500;
-    white-space: nowrap;
-    animation: typing 1s steps(20, end) forwards, blink 1s infinite alternate;
-    font-size: 24px;
-    font-style: italic;
-    width: 0;
+	overflow: hidden;
+	font-family: "Josefin Sans", sans-serif;
+	color: #6f131d;
+	padding: 10px;
+	margin: 0 10%;
+	border-right: 0.15em solid #ffa500;
+	white-space: nowrap;
+	animation: typing 1s steps(20, end) forwards, blink 1s infinite alternate;
+	font-size: 24px;
+	font-style: italic;
+	width: 0;
 }
 
 @keyframes typing {
-    from {
-        width: 0;
-    }
-    to {
-        width: 88%;
-    }
+	from {
+		width: 0;
+	}
+	to {
+		width: 88%;
+	}
 }
 
 @keyframes blink {
-    to {
-        opacity: 70%;
-    }
+	to {
+		opacity: 70%;
+	}
 }
 
 /* 例如，将以下代码添加到你的CSS文件中 */
