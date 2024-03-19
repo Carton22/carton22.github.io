@@ -76,7 +76,13 @@
 }
 
 .section-second-title a{
-	color:rgb(28, 38, 35);
+	color: #67121c;
+	text-decoration: none;
+}
+
+.section-second-title a:hover{
+	color: #67121c;
+	text-decoration: underline;
 }
 
 
@@ -88,7 +94,13 @@
 }
 
 .section-details a{
-	color: rgb(28, 38, 35);
+	color: #67121c;
+	text-decoration: none;
+}
+
+.section-details a:hover{
+	color: #67121c;
+	text-decoration: underline;
 }
 
 .section-details strong {
