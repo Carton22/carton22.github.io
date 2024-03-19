@@ -281,6 +281,11 @@ header {
 	text-decoration: none;
 }
 
+.selfIntroLinks a:hover{
+	color: #333333;
+	text-decoration: underline;
+}
+
 .bodyBigtext {
 	font-size: 50px;
 	color: #333333;
