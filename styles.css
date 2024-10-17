@@ -410,6 +410,7 @@ header {
 .button {
 	width: 120px;
 	height: 60px;
+	font-family: "Montserrat", sans-serif;
 	background-color: #a0383f;
 	border-radius: 30px;
 	display: flex;
@@ -427,7 +428,7 @@ header {
 .button span {
 	font-size: 14px;
 	font-weight: bold;
-	color: #ffffff;
+	color: #edba4f;
 }
 
 .button-container a {

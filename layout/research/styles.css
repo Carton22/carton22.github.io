@@ -87,12 +87,14 @@
 .section-title {
 	font-size: 20px;
 	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
 	margin-bottom: 5px;
 }
 
 .section-second-title {
 	font-size: 15px;
 	font-weight: bold;
+	font-family: "Montserrat", sans-serif;
 	margin-bottom: 5px;
 }
 
@@ -156,7 +158,8 @@ html, body {
 .button {
     width: 120px;
     height: 60px;
-    background-color: #832d34;
+	font-family: "Montserrat", sans-serif;
+    background-color: #a0383f;
     border-radius: 30px;
     display: flex;
     align-items: center;
@@ -173,7 +176,7 @@ html, body {
 .button span {
     font-size: 14px;
     font-weight: bold;
-    color: #ffffff;
+    color: #edba4f;
 }
 
 .button-container a{
