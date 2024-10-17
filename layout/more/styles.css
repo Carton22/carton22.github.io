@@ -9,7 +9,7 @@ body {
 	height: 100vh;
 	margin: 0;
 	overflow: hidden;
-	background: linear-gradient(to left, #f7ce55, #fadf88);
+	background: #f9f7f6;
 }
 
 .button-container {
@@ -52,7 +52,7 @@ body {
 .map {
 	height: 60%;
     width: 60%;
-	border: 5px solid #eee;
+	border: 3px solid #832d34;
     border-radius: 10px;
 	display: flex;
 	overflow: hidden;
@@ -68,7 +68,7 @@ body {
 	margin-top: 3%;
 	/* padding: 2% 0; */
 	text-align: center;
-	color: #ffffff;
+	color: #832d34;
 	font-family: 'Montserrat', sans-serif;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);	
 }
@@ -79,7 +79,7 @@ body {
 	margin-top: 40%;
 	/* padding: 2% 0; */
 	text-align: center;
-	color: #ffffff;
+	color: #832d34;
 	font-family: 'Montserrat', sans-serif;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);	
 }
@@ -93,6 +93,7 @@ body {
 
 .photoContainer img {
     width: 30%; 
+	border: 2px solid #832d34;
     margin-bottom: 20px; 
 	border-radius: 10px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);

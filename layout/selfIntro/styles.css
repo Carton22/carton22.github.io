@@ -39,6 +39,16 @@
 	text-decoration: underline;
 }
 
+/* Add styles for the divider */
+.divider {
+    border: none; /* Remove default border */
+    height: 1px; /* Set height for the divider */
+    background: linear-gradient(to right, rgba(204, 204, 204, 0.8), rgba(204, 204, 204, 0.2)); /* Set gradient background */
+    margin: 20px auto; /* Center the divider */
+    width: 80%; /* Set width to fit the layout */
+    align-self: center; /* Center the divider */
+}
+
 .page{
 	height: 100vh; 
 	overflow: auto;
@@ -46,7 +56,7 @@
 }
 
 body {
-    background: linear-gradient(to left, #f7ce55, #fadf88);
+    background: #f9f7f6;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -106,6 +116,7 @@ img {
     width: 30%; 
     height: auto; 
     overflow: hidden;
+    border: #832d34 3px solid;
     border-radius: 50%;
     display: block;
     padding: 3%;
@@ -121,6 +132,7 @@ img {
     width: 50%;
     height: 80%;
     background: #ffffff;
+    border: #832d34 3px solid;
     position:relative;
     margin-top: 6%;
     margin-left: 25%;

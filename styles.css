@@ -13,11 +13,33 @@ header {
 	padding: 20px;
 }
 
+/* Add styles for the top bars */
+.top-bar {
+	width: 100%;
+	height: 3px; /* Adjust height as needed */
+	background-color: #97323b; /* Primary color */
+}
+
+.top-bar.secondary {
+	background-color: #edba4f; /* Secondary color */
+}
+
+/* Add styles for the divider */
+.divider {
+    border: none; /* Remove default border */
+    height: 1px; /* Set height for the divider */
+    background: linear-gradient(to right, rgba(204, 204, 204, 0.8), rgba(204, 204, 204, 0.2)); /* Set gradient background */
+    margin: 20px 0; /* Add margin for spacing */
+    width: 80%; /* Set width to fit the layout */
+    align-self: center; /* Center the divider */
+}
+
 /* 设置左上方块的样式 */
 .square1 {
 	width: 40%;
 	height: 80%;
-	background-color: #841825; /* 设置方块背景颜色 */
+	background-color: #97323b; /* 设置方块背景颜色 */
+	border: 3px solid #e4bc5e;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -54,6 +76,7 @@ header {
 	width: 80%; /* 设置图片容器的宽度 */
 	height: 80%; /* 设置图片容器的高度 */
 	overflow: hidden; /* 隐藏溢出的部分，以显示圆形 */
+	border: 2px solid #e4bc5e; /* 设置边框 */
 	border-radius: 50%;
 	display: block;
 	padding: 10%;
@@ -71,6 +94,7 @@ header {
 	width: 40%;
 	height: 40%;
 	background: #8e2431;
+	border: 3px solid #e4bc5e;
 	position: absolute;
 	top: 105%;
 	right: 9%;
@@ -111,6 +135,7 @@ header {
 	width: 40%;
 	height: 30%;
 	background: #8e2431;
+	border: 3px solid #e4bc5e;
 	position: absolute;
 	top: 153%;
 	left: 7%;
@@ -150,6 +175,7 @@ header {
 	width: 25%;
 	height: 30%;
 	background-color: #f7be55; /* 设置方块背景颜色 */
+	border: 3px solid #841825;
 	position: absolute;
 	top: 115%;
 	left: 23%;
@@ -185,6 +211,7 @@ header {
 	width: 25%;
 	height: 30%;
 	background-color: #f7be55; /* 设置方块背景颜色 */
+	border: 3px solid #841825;
 	position: absolute;
 	top: 150%;
 	right: 25%;
@@ -253,7 +280,8 @@ header {
 .page {
 	height: 100vh; /* 设置每个页面的高度为视口高度的一半 */
 	overflow: auto; /* 允许内容滚动 */
-	background: linear-gradient(to left, #f7ce55, #fadf88);
+	/* background: linear-gradient(to left, #f7ce55, #fadf88); */
+	background: #f9f7f6;
 }
 
 .selfIntroApply {
@@ -372,7 +400,7 @@ header {
 
 .button-container {
 	position: absolute; /* 设置绝对定位 */
-	top: 1%; /* 距离顶部的距离 */
+	top: 3%; /* 调整按钮距离顶部的距离 */
 	right: 5%; /* 距离右侧的距离 */
 	gap: 20px;
 	display: flex;
@@ -382,7 +410,7 @@ header {
 .button {
 	width: 120px;
 	height: 60px;
-	background-color: #832d34;
+	background-color: #a0383f;
 	border-radius: 30px;
 	display: flex;
 	align-items: center;
@@ -416,7 +444,7 @@ header {
 	color: #6f131d;
 	padding: 10px;
 	margin: 0 10%;
-	border-right: 0.15em solid #ffa500;
+	border-right: 5px double #8e2431;
 	white-space: nowrap;
 	animation: typing 1s steps(20, end) forwards, blink 1s infinite alternate;
 	font-size: 24px;
