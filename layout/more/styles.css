@@ -49,6 +49,17 @@ body {
 	text-decoration: none;
 }
 
+/* Add styles for the top bars */
+.top-bar {
+	width: 100%;
+	height: 3px; /* Adjust height as needed */
+	background-color: #97323b; /* Primary color */
+}
+
+.top-bar.secondary {
+	background-color: #edba4f; /* Secondary color */
+}
+
 .map {
 	height: 60%;
     width: 60%;
