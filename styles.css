@@ -360,7 +360,6 @@ header {
 .bodytext {
 	font-size: 20px;
 	color: #333333;
-	text-align: center;
 	padding: 10px;
 	margin: 0 10%;
 	font-family: "Montserrat", sans-serif;
@@ -468,12 +467,10 @@ header {
 	}
 }
 
-/* 例如，将以下代码添加到你的CSS文件中 */
 @media screen and (max-width: 1200px) {
-	/* 在小屏幕上的样式调整 */
 	.button-container {
-		top: 1%; /* 调整按钮距离顶部的距离 */
-		right: 11%;
+		top: 2%; /* 调整按钮距离顶部的距离 */
+		right: 10%;
 		display: flex;
 		justify-content: center; /* 水平方向上均匀分布 */
 		align-items: center; /* 竖直方向上居中对齐 */
@@ -492,7 +489,7 @@ header {
 
 	.square1 {
 		width: 50%;
-		height: 30%;
+		height: 20%;
 		margin-top: 17%;
 		margin-left: 25%;
 		float: none;
@@ -503,29 +500,56 @@ header {
 	}
 
 	.square1 square1t1 img {
-		width: 40%; /* 设置图片容器的宽度 */
-		height: 40%; /* 设置图片容器的高度 */
+		width: 40%; 
+		height: 20%;
 		padding: 10%;
 		box-shadow: 10px 0 20px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
 		border-radius: 50%;
-		margin-bottom: 10%;
+		margin-bottom: 50%;
 		margin-left: 20%;
+	}
+
+	.square2 {
+		width: 80%;
+		height: 15%;
+		top: 128%;
+		right: 10%;
 	}
 
 	.square2 square2t1 {
 		font-size: 30px;
 	}
 
+	.square3 {
+		width: 80%;
+		height: 15%;
+		top: 150%;
+		right: 10%;
+	}
 	.square3 square3t1 {
 		font-size: 30px;
 	}
 
-	.square4 square4t1 a {
-		font-size: 20px;
+	.square4 {
+		width: 76%;
+		height: 15%;
+		top: 105%;
+		left: 11%;
+	}
+
+	.square4 square4t1{
+		font-size: 30px;
+	}
+
+	.square5 {
+		width: 80%;
+		height: 15%;
+		top: 172%;
+		right: 10%;
 	}
 
 	.square5 square5t1 {
-		font-size: 15px;
+		font-size: 30px;
 	}
 
 	.footer footert1 a img {
@@ -540,27 +564,26 @@ header {
 	.bodyBigtext {
 		font-size: 15px;
 		padding: 1px;
-		margin: 0 40%;
+		margin: 0 auto;
 	}
 
 	.bodyChineseBigtext {
-		font-size: 10px;
+		font-size: 15px;
 		padding: 1px;
-		margin: 0 46%;
-		display: none;
+		margin: 0 auto;
 	}
 
 	.bodyMidtext {
 		font-size: 8px;
 		padding: 1px;
-		margin: 0 48%;
-		display: none;
+		margin: 0 auto;
 	}
 
 	.bodytext {
 		font-size: 12px;
 		padding: 1px;
 		margin: 0 5%;
+		text-align: center;
 	}
 
 	.selfIntroApply {
@@ -572,12 +595,13 @@ header {
 	.selfIntroLinks {
 		font-size: 10px;
 		padding: 5px;
-		margin: 0 18%;
+		margin: 0 auto;
 	}
 
 	.typed-out {
 		font-size: 11px;
 		padding: 1px;
 		margin: 0 5%;
+		text-align: center;
 	}
 }
