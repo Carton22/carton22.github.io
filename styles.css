@@ -34,20 +34,172 @@ header {
     align-self: center; /* Center the divider */
 }
 
+/* Profile section layout */
+.profile-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	float: left;
+	margin-left: 5%;
+	margin-top: 5%;
+	width: 35%;
+}
+
+.profile-links {
+	margin-top: 50px;
+	text-align: center;
+	width: 100%;
+}
+
+.profile-links .selfIntroLinks {
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 22px;
+	color: #97323b;
+}
+
+.profile-links .selfIntroLinks a {
+	color: #97323b;
+	text-decoration: none;
+}
+
+.profile-links .selfIntroLinks a:hover {
+	color: #edba4f;
+	text-decoration: underline;
+}
+
+.profile-footer {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.typed-out-profile {
+	overflow: hidden;
+	font-family: "Josefin Sans", sans-serif;
+	color: #6f131d;
+	padding: 10px;
+	margin: 0;
+	border-right: 5px double #8e2431;
+	white-space: nowrap;
+	animation: typing 1s forwards, blink 1s infinite alternate;
+	font-size: 18px;
+	font-style: italic;
+	width: 0;
+	text-align: left;
+}
+
+/* Components Row Layout */
+.components-row {
+	display: flex;
+	gap: 20px;
+	position: absolute;
+	left: 46%;
+	top: 55%;
+	width: 80%;
+	box-sizing: border-box;
+	z-index: 3;
+}
+
+.component-card {
+	flex: 0 0 auto;
+	width: 50%;
+	max-width: 400px;
+}
+
+.card-container {
+	background: #ffffff;
+	border-radius: 12px;
+	box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+	padding: 16px;
+	border: 1px solid #e4bc5e;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.card-header {
+	margin-bottom: 12px;
+	text-align: left;
+}
+
+.card-header h2 {
+	color: #97323b;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #e4bc5e;
+}
+
+.card-content {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.card-item {
+	padding: 5px 0;
+	border-bottom: 1px solid #f0f0f0;
+	transition: padding-left 0.2s ease-in-out;
+}
+
+.card-item:last-child {
+	border-bottom: none;
+}
+
+.card-item:hover {
+	padding-left: 6px;
+}
+
+.item-date {
+	color: #97323b;
+	font-family: "Montserrat", sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 2px;
+}
+
+.item-title {
+	color: #333333;
+	font-family: "Poppins", sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1.2;
+}
+
+.item-title a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.item-title a:hover {
+	color: #edba4f;
+	text-decoration: underline;
+}
+
+/* Name line layout */
+.name-line {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 20px;
+	margin: 0 10% 10px 10%;
+	padding: 0;
+	width: 80%;
+	box-sizing: border-box;
+}
+
 /* 设置左上方块的样式 */
 .square1 {
-	width: 40%;
-	height: 80%;
+	width: 500px;
+	height: 600px;
 	background-color: #97323b; /* 设置方块背景颜色 */
 	border: 3px solid #e4bc5e;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-radius: 40px; /* 圆角 */
+	border-radius: 30px; /* 圆角 */
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* 阴影 */
-	float: left;
-	margin-left: 5%;
-	margin-top: 5%;
 	transition: transform 0.2s ease-in-out;
 }
 
@@ -327,9 +479,9 @@ header {
 .bodyBigtext {
 	font-size: 50px;
 	color: #333333;
-	text-align: center;
-	padding: 10px;
-	margin: 0 10%;
+	text-align: left;
+	padding: 0;
+	margin: 0;
 	font-family: "Poppins", sans-serif;
 	font: bold;
 	display: inline-block;
@@ -338,9 +490,9 @@ header {
 .bodyChineseBigtext {
 	font-size: 40px;
 	color: #333333;
-	text-align: center;
-	padding: 10px;
-	margin: 0 10%;
+	text-align: left;
+	padding: 0;
+	margin: 0;
 	font-family: "Noto Serif SC", serif;
 	font-weight: bold;
 	display: inline-block;
@@ -360,10 +512,12 @@ header {
 .bodytext {
 	font-size: 20px;
 	color: #333333;
-	padding: 10px;
+	padding: 10px 0;
 	margin: 0 10%;
 	font-family: "Montserrat", sans-serif;
 	text-align: start;
+	width: 80%;
+	box-sizing: border-box;
 }
 
 .bodytext a {
@@ -373,14 +527,22 @@ header {
 }
 
 .bodytext a:hover {
+	color: #edba4f;
 	text-decoration: underline;
+}
+
+.bodytext strong {
+	color: #6f131d;
+	font-weight: bold;
 }
 
 .textContainer {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	margin-top: 5%;
+	margin-top: 8%;
+	margin-left: 0;
+	padding-left: 0;
 	z-index: 2;
 }
 
@@ -446,7 +608,7 @@ header {
 	margin: 0 10%;
 	border-right: 5px double #8e2431;
 	white-space: nowrap;
-	animation: typing 1s steps(20, end) forwards, blink 1s infinite alternate;
+	animation: typing 2s steps(20, end) forwards, blink 1s infinite alternate;
 	font-size: 24px;
 	font-style: italic;
 	width: 0;
@@ -457,7 +619,7 @@ header {
 		width: 0;
 	}
 	to {
-		width: 88%;
+		width: 100%;
 	}
 }
 
@@ -468,13 +630,57 @@ header {
 }
 
 @media screen and (max-width: 1200px) {
+	.profile-section {
+		width: 100%;
+		float: none;
+		margin: 20px auto;
+	}
+
+	/* .square1 {
+		width: 240px;
+		height: 100px;
+	} */
+
+	.profile-links {
+		margin-top: 2%;
+	}
+
+	.profile-links .selfIntroLinks a{
+		font-size: 20px;
+	}
+
+	.textContainer {
+		margin-top: 0;
+	}
+
+	.components-row {
+		position: static;
+		flex-direction: row;
+		margin-left: 5%;
+		margin-right: 5%;
+		width: 90%;
+		margin-top: 20px;
+		gap: 15px;
+		justify-content: center;
+		bottom: auto;
+		right: auto;
+	}
+
+	.component-card {
+		width: 50%;
+	}
+
+	.card-container {
+		padding: 15px;
+	}
+
 	.button-container {
 		top: 2%; /* 调整按钮距离顶部的距离 */
-		right: 10%;
 		display: flex;
-		justify-content: center; /* 水平方向上均匀分布 */
+		justify-content: none; /* 水平方向上均匀分布 */
 		align-items: center; /* 竖直方向上居中对齐 */
 		position: absolute;
+		right: 20%;
 	}
 
 	.button {
@@ -489,10 +695,14 @@ header {
 
 	.square1 {
 		width: 50%;
-		height: 25%;
-		margin-top: 17%;
-		margin-left: 25%;
+		height: 15%;
+		margin-top: 12%;
+		/* margin-left: 10%; */
 		float: none;
+	}
+
+	.square1 square1t1 {
+		font-size: 20px;
 	}
 
 	.square1 square1t1 a {
@@ -505,7 +715,7 @@ header {
 		padding: 10%;
 		box-shadow: 10px 0 20px rgba(0, 0, 0, 0.1); /* 添加阴影效果 */
 		border-radius: 50%;
-		margin-bottom: 50%;
+		/* margin-bottom: 50%; */
 		margin-left: 20%;
 	}
 
@@ -561,16 +771,25 @@ header {
 		font-size: 10px;
 	}
 
+	.name-line {
+		flex-direction: column;
+		gap: 0px;
+		margin: 0 0 0 10%;
+
+	}
+
 	.bodyBigtext {
 		font-size: 15px;
 		padding: 1px;
-		margin: 0 auto;
+		margin: 0;
+		text-align: center;
 	}
 
 	.bodyChineseBigtext {
 		font-size: 15px;
 		padding: 1px;
-		margin: 0 auto;
+		margin: 0;
+		text-align: center;
 	}
 
 	.bodyMidtext {
@@ -603,5 +822,9 @@ header {
 		padding: 1px;
 		margin: 0 5%;
 		text-align: center;
+	}
+
+	.profile-footer {
+		display: none;
 	}
 }
