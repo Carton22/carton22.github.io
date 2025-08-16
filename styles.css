@@ -653,6 +653,12 @@ header {
 }
 
 @media screen and (max-width: 1200px) {
+
+	.page{
+		height: 130vh;
+	}
+
+
 	.profile-section {
 		width: 100%;
 		float: none;
