@@ -95,7 +95,7 @@ header {
 	position: absolute;
 	left: 46%;
 	top: 55%;
-	width: 80%;
+	width: 50%;
 	box-sizing: border-box;
 	z-index: 3;
 }
@@ -135,6 +135,29 @@ header {
 	display: flex;
 	flex-direction: column;
 	gap: 6px;
+	max-height: 200px;
+	overflow-y: auto;
+	scrollbar-width: thin;
+	scrollbar-color: #e4bc5e #f0f0f0;
+}
+
+/* Custom scrollbar styling for webkit browsers */
+.card-content::-webkit-scrollbar {
+	width: 6px;
+}
+
+.card-content::-webkit-scrollbar-track {
+	background: #f0f0f0;
+	border-radius: 3px;
+}
+
+.card-content::-webkit-scrollbar-thumb {
+	background: #e4bc5e;
+	border-radius: 3px;
+}
+
+.card-content::-webkit-scrollbar-thumb:hover {
+	background: #d4ac4e;
 }
 
 .card-item {
@@ -674,13 +697,17 @@ header {
 		padding: 15px;
 	}
 
+	.card-content {
+		max-height: 100px;
+	}
+
 	.button-container {
 		top: 2%; /* 调整按钮距离顶部的距离 */
+		right: 10%;
 		display: flex;
-		justify-content: none; /* 水平方向上均匀分布 */
+		justify-content: center; /* 水平方向上均匀分布 */
 		align-items: center; /* 竖直方向上居中对齐 */
 		position: absolute;
-		right: 20%;
 	}
 
 	.button {
