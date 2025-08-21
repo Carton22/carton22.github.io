@@ -94,7 +94,7 @@ header {
 	gap: 20px;
 	position: absolute;
 	left: 46%;
-	top: 55%;
+	top: 60%;
 	width: 50%;
 	box-sizing: border-box;
 	z-index: 3;
@@ -147,7 +147,6 @@ header {
 }
 
 .card-content::-webkit-scrollbar-track {
-	background: #f0f0f0;
 	border-radius: 3px;
 }
 
