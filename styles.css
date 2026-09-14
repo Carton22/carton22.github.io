@@ -1429,17 +1429,17 @@ body {
 		grid-column: 1;
 		grid-row: 2;
 		position: relative;
-		top: -50px;
+		top: -30px;
 	}
 
 	#page1 .textContainer {
 		grid-row: 3;
-		top: -45px;
+		top: -25px;
 	}
 
 	#page1 .profile-links {
 		grid-row: 4;
-		top: -40px;
+		top: -15px;
 	}
 
 	#page1 .components-row {
