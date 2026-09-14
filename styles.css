@@ -1327,8 +1327,8 @@ body > .button-container {
 
 #page1 .publication-image {
 	height: auto;
-	aspect-ratio: auto;
-	object-fit: contain;
+	aspect-ratio: 16 / 9;
+	object-fit: cover;
 	border-radius: 6px;
 }
 
