@@ -1462,6 +1462,15 @@ body {
 	}
 }
 
+@media screen and (min-width: 1201px) {
+	body > .button-container {
+		left: calc(50% - 112px);
+		right: max(5vw, calc((100vw - 1560px) / 2));
+		justify-content: space-between;
+		gap: 16px;
+	}
+}
+
 /* Compact, frameless scrolling lists for blogs and news. */
 #page1 .components-row > .component-card:not(.publication-card) .card-content {
 	max-height: 260px;
