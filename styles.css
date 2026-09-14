@@ -896,3 +896,112 @@ body > .button-container {
 		right: 5%;
 	}
 }
+
+/* Academic profile layout: keep the introduction beneath the profile card. */
+@media screen and (min-width: 1201px) {
+	#page1 {
+		display: grid;
+		grid-template-columns: minmax(320px, 38%) minmax(0, 1fr);
+		grid-template-rows: auto auto auto;
+		column-gap: 4%;
+		align-items: start;
+		padding: 78px 5% 40px;
+		min-height: 100vh;
+	}
+
+	#page1 .profile-section {
+		display: contents;
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+
+	#page1 .square1 {
+		grid-column: 1;
+		grid-row: 1;
+		width: min(100%, 500px);
+		box-sizing: border-box;
+	}
+
+	#page1 .profile-links {
+		grid-column: 1;
+		grid-row: 3;
+		width: 100%;
+		margin: 20px 0 0;
+	}
+
+	#page1 .textContainer {
+		grid-column: 1;
+		grid-row: 2;
+		width: 100%;
+		margin: 28px 0 0;
+		padding: 0;
+	}
+
+	#page1 .name-line {
+		width: 100%;
+		margin: 0;
+		justify-content: flex-start;
+		gap: 12px;
+	}
+
+	#page1 .bodyBigtext {
+		font-size: clamp(28px, 2.5vw, 42px);
+	}
+
+	#page1 .bodyChineseBigtext {
+		font-size: clamp(24px, 2.2vw, 36px);
+	}
+
+	#page1 .textContainer .divider,
+	#page1 .textContainer .bodytext {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	#page1 .textContainer .bodytext {
+		font-size: 16px;
+		line-height: 1.55;
+		text-align: left;
+	}
+
+	#page1 .components-row {
+		grid-column: 2;
+		grid-row: 1 / span 2;
+		position: static;
+		width: 100%;
+		margin: 0;
+		align-self: start;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	#page1 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#page1 .profile-section {
+		display: contents;
+	}
+
+	#page1 .square1 {
+		order: 1;
+	}
+
+	#page1 .textContainer {
+		order: 2;
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	#page1 .profile-links {
+		order: 3;
+		margin-top: 20px;
+	}
+
+	#page1 .components-row {
+		order: 4;
+	}
+}
