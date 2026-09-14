@@ -1404,6 +1404,7 @@ body {
 
 .profile-email {
 	width: 100%;
+	color: #97323b;
 	font-family: "Montserrat", sans-serif;
 	font-size: 0.9rem;
 	text-align: center;
@@ -1438,7 +1439,7 @@ body {
 
 	#page1 .profile-links {
 		grid-row: 4;
-		top: -96px;
+		top: -40px;
 	}
 
 	#page1 .components-row {
