@@ -1385,6 +1385,23 @@ body > .button-container {
 	}
 }
 
+/* Keep the homepage background continuous and tighten the profile stack. */
+body {
+	background: #f9f7f6;
+}
+
+@media screen and (min-width: 1201px) {
+	#page1 .textContainer {
+		position: relative;
+		top: -70px;
+	}
+
+	#page1 .profile-links {
+		position: relative;
+		top: -65px;
+	}
+}
+
 @media screen and (max-width: 1200px) {
 	#page1 {
 		display: flex;
