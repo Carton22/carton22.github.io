@@ -1402,6 +1402,65 @@ body {
 	}
 }
 
+.profile-email {
+	width: 100%;
+	font-family: "Montserrat", sans-serif;
+	font-size: 0.9rem;
+	text-align: center;
+}
+
+.profile-email a {
+	color: #97323b;
+	text-decoration: none;
+}
+
+.profile-email a:hover {
+	color: #edba4f;
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 1201px) {
+	#page1 {
+		grid-template-rows: auto auto auto auto;
+	}
+
+	#page1 .profile-email {
+		grid-column: 1;
+		grid-row: 2;
+		position: relative;
+		top: -50px;
+	}
+
+	#page1 .textContainer {
+		grid-row: 3;
+		top: -45px;
+	}
+
+	#page1 .profile-links {
+		grid-row: 4;
+		top: -96px;
+	}
+
+	#page1 .components-row {
+		grid-row: 1 / span 4;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	#page1 .profile-email {
+		order: 1;
+		margin: 10px 0 0;
+	}
+
+	#page1 .textContainer {
+		order: 2;
+	}
+
+	#page1 .profile-links {
+		order: 3;
+	}
+}
+
 @media screen and (max-width: 1200px) {
 	#page1 {
 		display: flex;
