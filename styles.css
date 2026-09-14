@@ -1312,7 +1312,7 @@ body > .button-container {
 	margin: 0 auto;
 	padding: 0;
 	border: 0;
-	border-radius: 50%;
+	border-radius: 0;
 	box-shadow: 0 12px 28px rgba(0, 0, 0, 0.14);
 	box-sizing: border-box;
 }
