@@ -1271,9 +1271,14 @@ body > .button-container {
 }
 
 @media screen and (min-width: 1201px) {
+	#page1 .textContainer .bodytext {
+		font-size: 15px;
+		line-height: 1.3;
+	}
+
 	#page1 .profile-links {
 		position: relative;
-		top: -40px;
+		top: -65px;
 	}
 }
 
