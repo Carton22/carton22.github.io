@@ -165,6 +165,15 @@ img {
     flex-direction: row; /* 将按钮水平排列 */
 }
 
+@media screen and (min-width: 1201px) {
+	.button-container {
+		left: auto;
+		right: 5%;
+		justify-content: flex-start;
+		gap: 20px;
+	}
+}
+
 .button {
     width: 120px;
     height: 60px;
@@ -289,5 +298,14 @@ img {
 		margin-left: 0;
 		margin-right: 0;
 		gap: 10px;
+	}
+}
+
+@media screen and (min-width: 1201px) {
+	.button-container {
+		left: auto;
+		right: 5%;
+		justify-content: flex-start;
+		gap: 20px;
 	}
 }

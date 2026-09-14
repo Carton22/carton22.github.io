@@ -1464,10 +1464,10 @@ body {
 
 @media screen and (min-width: 1201px) {
 	body > .button-container {
-		left: calc(50% - 112px);
+		left: auto;
 		right: max(5vw, calc((100vw - 1560px) / 2));
-		justify-content: space-between;
-		gap: 16px;
+		justify-content: flex-start;
+		gap: 20px;
 	}
 }
 

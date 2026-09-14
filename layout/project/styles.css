@@ -136,6 +136,15 @@ html, body {
 
 }
 
+@media screen and (min-width: 1201px) {
+	.button-container {
+		left: auto;
+		right: 5%;
+		justify-content: flex-start;
+		gap: 20px;
+	}
+}
+
 /* Add styles for the top bars */
 .top-bar {
 	width: 100%;
@@ -245,5 +254,14 @@ html, body {
 		margin-left: 0;
 		margin-right: 0;
 		gap: 10px;
+	}
+}
+
+@media screen and (min-width: 1201px) {
+	.button-container {
+		left: auto;
+		right: 5%;
+		justify-content: flex-start;
+		gap: 20px;
 	}
 }

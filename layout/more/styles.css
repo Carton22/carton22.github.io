@@ -23,6 +23,15 @@ body {
 	flex-direction: row; /* 将按钮水平排列 */
 }
 
+@media screen and (min-width: 1201px) {
+	.button-container {
+		left: auto;
+		right: 5%;
+		justify-content: flex-start;
+		gap: 20px;
+	}
+}
+
 .button {
 	width: 120px;
 	height: 60px;
@@ -244,5 +253,14 @@ body {
 
 	.photoTitle {
 		margin-top: 24px;
+	}
+}
+
+@media screen and (min-width: 1201px) {
+	.button-container {
+		left: auto;
+		right: 5%;
+		justify-content: flex-start;
+		gap: 20px;
 	}
 }
