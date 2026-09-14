@@ -1,7 +1,9 @@
 .page{
-	height: 100vh; /* Set container height to 100% of viewport height */
-	overflow: auto;
+	min-height: 100vh;
+	min-height: 100svh;
+	overflow: visible;
 	position: relative;
+	box-sizing: border-box;
 }
 
 .section-table {
@@ -120,9 +122,9 @@ body {
 }
 
 html, body {
-	height: 100%;
+	min-height: 100%;
 	margin: 0;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 .button-container {
@@ -215,5 +217,33 @@ html, body {
 	.section-image-large,
   	.section-content {
     	display: block;
+	}
+}
+
+/* Reserve a compact nav row so project cards never sit underneath it. */
+.page {
+	padding-top: 90px;
+}
+
+.button-container {
+	top: 20px;
+	right: 5%;
+	z-index: 10;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	max-width: 90%;
+}
+
+@media screen and (max-width: 1200px) {
+	.page {
+		padding-top: 78px;
+	}
+
+	.button-container {
+		top: 18px;
+		right: 5%;
+		margin-left: 0;
+		margin-right: 0;
+		gap: 10px;
 	}
 }

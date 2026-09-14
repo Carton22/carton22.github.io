@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: Arial, Helvetica, sans-serif;
+	overflow-x: hidden;
 }
 
 /* 设置头部样式 */
@@ -270,7 +271,7 @@ header {
 	background: #8e2431;
 	border: 3px solid #e4bc5e;
 	position: absolute;
-	top: 105%;
+	top: 5%;
 	right: 9%;
 	display: flex;
 	justify-content: center;
@@ -311,7 +312,7 @@ header {
 	background: #8e2431;
 	border: 3px solid #e4bc5e;
 	position: absolute;
-	top: 153%;
+	top: 53%;
 	left: 7%;
 	display: flex;
 	justify-content: center;
@@ -351,7 +352,7 @@ header {
 	background-color: #f7be55; /* 设置方块背景颜色 */
 	border: 3px solid #841825;
 	position: absolute;
-	top: 115%;
+	top: 15%;
 	left: 23%;
 	display: flex;
 	justify-content: center;
@@ -387,7 +388,7 @@ header {
 	background-color: #f7be55; /* 设置方块背景颜色 */
 	border: 3px solid #841825;
 	position: absolute;
-	top: 150%;
+	top: 50%;
 	right: 25%;
 	display: flex;
 	justify-content: center;
@@ -423,7 +424,7 @@ header {
 	height: 9%;
 	background: transparent;
 	position: absolute;
-	bottom: -100%;
+	bottom: 0;
 	display: flex;
 	justify-content: center; /* 水平方向上均匀分布 */
 	align-items: center; /* 竖直方向上居中对齐 */
@@ -452,8 +453,11 @@ header {
 }
 
 .page {
-	height: 100vh; /* 设置每个页面的高度为视口高度的一半 */
-	overflow: auto; /* 允许内容滚动 */
+	min-height: 100vh;
+	min-height: 100svh;
+	overflow: visible;
+	position: relative;
+	box-sizing: border-box;
 	/* background: linear-gradient(to left, #f7ce55, #fadf88); */
 	background: #f9f7f6;
 }
@@ -654,7 +658,8 @@ header {
 @media screen and (max-width: 1200px) {
 
 	.page{
-		height: 90vh;
+		min-height: 100vh;
+		min-height: 100svh;
 	}
 
 
@@ -754,7 +759,7 @@ header {
 	.square2 {
 		width: 80%;
 		height: 15%;
-		top: 128%;
+		top: 30%;
 		right: 10%;
 	}
 
@@ -765,7 +770,7 @@ header {
 	.square3 {
 		width: 80%;
 		height: 15%;
-		top: 150%;
+		top: 52%;
 		right: 10%;
 	}
 	.square3 square3t1 {
@@ -775,7 +780,7 @@ header {
 	.square4 {
 		width: 76%;
 		height: 15%;
-		top: 105%;
+		top: 8%;
 		left: 11%;
 	}
 
@@ -786,7 +791,7 @@ header {
 	.square5 {
 		width: 80%;
 		height: 15%;
-		top: 172%;
+		top: 74%;
 		right: 10%;
 	}
 
@@ -858,5 +863,36 @@ header {
 
 	.profile-footer {
 		display: none;
+	}
+}
+
+/* Keep the home navigation clear of the hero content. */
+body > .button-container {
+	top: 20px;
+	right: 5%;
+	z-index: 10;
+}
+
+#page1 {
+	padding-top: 78px;
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+	#page1 {
+		padding-top: 76px;
+	}
+
+	#page1 .profile-section {
+		margin-top: 0;
+	}
+
+	#page1 .square1 {
+		margin-top: 20px;
+	}
+
+	body > .button-container {
+		top: 18px;
+		right: 5%;
 	}
 }
