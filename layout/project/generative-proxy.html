@@ -7,6 +7,7 @@
 		<link rel="icon" type="image/png" href="../../image/favicon.png" />
 		<link rel="stylesheet" href="styles.css" />
 		<link rel="stylesheet" href="publication-project.css" />
+		<script src="publication-project.js" defer></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&amp;display=swap" rel="stylesheet" />
@@ -43,23 +44,20 @@
 
 				<hr class="project-divider" />
 				<section aria-labelledby="citation-title">
-					<h2 id="citation-title" class="project-section-title">Citation BibTeX</h2>
-					<pre class="bibtex"><code>@misc{liu2026generativeproxysynthesizingproxybased,
+					<div class="citation-heading">
+						<h2 id="citation-title" class="project-section-title">Citation BibTeX</h2>
+					</div>
+					<pre class="bibtex"><code id="generative-proxy-citation">@article{liu2026generative,
   title={Generative Proxy: Synthesizing Proxy-Based Interfaces for Real-World Interaction Across AR Glasses},
-  author={Xianhao Carton Liu and William Chastek and Eric J Gonzalez and Mar Gonzalez-Franco and Chen Zhu-Tian},
-  year={2026},
-  eprint={2608.08971},
-  archivePrefix={arXiv},
-  primaryClass={cs.HC},
-  url={https://arxiv.org/abs/2608.08971},
+  author={Liu, Xianhao Carton and Chastek, William and Gonzalez, Eric J and Gonzalez-Franco, Mar and Zhu-Tian, Chen},
+  journal={arXiv preprint arXiv:2608.08971},
+  year={2026}
 }</code></pre>
+					<div class="citation-actions">
+						<button type="button" class="copy-button" data-copy-target="generative-proxy-citation" aria-live="polite">Copy</button>
+					</div>
+					<p class="copy-status" role="status"></p>
 				</section>
-
-				<nav class="project-links" aria-label="Publication links">
-					<a href="../../assets/UIST26_Gen_Proxy.pdf">Paper</a>
-					<a href="https://arxiv.org/abs/2608.08971">arXiv</a>
-					<a href="https://youtu.be/N1YcwAxcPaQ">Video</a>
-				</nav>
 			</main>
 		</div>
 	</body>

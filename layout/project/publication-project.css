@@ -1,8 +1,13 @@
 .publication-project {
   min-height: 100vh;
   min-height: 100svh;
-  padding: 0 20px 60px;
+  padding: 0 0 60px;
   box-sizing: border-box;
+}
+
+.publication-project .page {
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .publication-project .project-shell {
@@ -102,6 +107,56 @@
   }
 }
 
+.publication-project .citation-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.publication-project .citation-heading .project-section-title {
+  margin: 0;
+}
+
+.publication-project .copy-button {
+  padding: 9px 18px;
+  border: 1px solid #67121c;
+  border-radius: 6px;
+  background: #97323b;
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+.publication-project .citation-actions {
+  margin-top: 12px;
+}
+
+.publication-project .copy-button:hover {
+  background: #67121c;
+}
+
+.publication-project .copy-button:focus-visible {
+  outline: 3px solid #edba4f;
+  outline-offset: 3px;
+}
+
+.publication-project .copy-button:disabled {
+  cursor: default;
+}
+
+.publication-project .copy-status {
+  color: #67121c;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.publication-project .copy-status:empty {
+  margin: 0;
+}
+
 .publication-project .bibtex {
   margin: 0;
   padding: 18px;
@@ -116,11 +171,13 @@
 
 @media screen and (max-width: 600px) {
   .publication-project {
-    padding: 0 12px 32px;
+    padding: 0 0 32px;
   }
 
   .publication-project .page {
     padding-top: 190px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 
   .publication-project .project-shell {

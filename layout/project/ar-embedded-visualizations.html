@@ -7,6 +7,7 @@
 		<link rel="icon" type="image/png" href="../../image/favicon.png" />
 		<link rel="stylesheet" href="styles.css" />
 		<link rel="stylesheet" href="publication-project.css" />
+		<script src="publication-project.js" defer></script>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&amp;display=swap" rel="stylesheet" />
@@ -37,33 +38,27 @@
 				<section aria-labelledby="video-title">
 					<h2 id="video-title" class="project-section-title">Video</h2>
 					<div class="video-frame">
-						<iframe src="https://www.youtube.com/embed/TtigL7ULrSo" title="AR Embedded Visualizations conference video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+						<iframe src="https://www.youtube.com/embed/A4TKMEA-yeM" title="AR Embedded Visualizations conference video" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 					</div>
 				</section>
 
 				<hr class="project-divider" />
 				<section aria-labelledby="citation-title">
-					<h2 id="citation-title" class="project-section-title">Citation BibTeX</h2>
-					<pre class="bibtex"><code>@inproceedings{Liu_2026,
-  series={CHI ’26},
+					<div class="citation-heading">
+						<h2 id="citation-title" class="project-section-title">Citation BibTeX</h2>
+					</div>
+					<pre class="bibtex"><code id="ar-embedded-citation">@inproceedings{liu2026can,
   title={Can AR Embedded Visualizations Foster Appropriate Reliance on AI in Spatial Decision-Making? A Comparative Study of AR X-Ray vs. 2D Minimap},
-  url={http://dx.doi.org/10.1145/3772318.3790710},
-  DOI={10.1145/3772318.3790710},
-  booktitle={Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},
-  publisher={ACM},
   author={Liu, Xianhao Carton and Jia, Difan and Nie, Tongyu and Suma Rosenberg, Evan and Interrante, Victoria and Zhu-Tian, Chen},
-  year={2026},
-  month=Apr,
-  pages={1–15},
-  collection={CHI ’26}
+  booktitle={Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},
+  pages={1--15},
+  year={2026}
 }</code></pre>
+					<div class="citation-actions">
+						<button type="button" class="copy-button" data-copy-target="ar-embedded-citation" aria-live="polite">Copy</button>
+					</div>
+					<p class="copy-status" role="status"></p>
 				</section>
-
-				<nav class="project-links" aria-label="Publication links">
-					<a href="https://doi.org/10.1145/3772318.3790710">Paper</a>
-					<a href="https://arxiv.org/abs/2507.14316">arXiv</a>
-					<a href="https://youtu.be/TtigL7ULrSo">Video</a>
-				</nav>
 			</main>
 		</div>
 	</body>
