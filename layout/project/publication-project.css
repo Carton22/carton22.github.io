@@ -1,0 +1,137 @@
+.publication-project {
+  min-height: 100vh;
+  min-height: 100svh;
+  padding: 0 20px 60px;
+  box-sizing: border-box;
+}
+
+.publication-project .project-shell {
+  width: min(900px, 100%);
+  margin: 0 auto;
+  padding: 42px clamp(24px, 5vw, 64px);
+  box-sizing: border-box;
+  background: #fff;
+  border: 2px solid #67121c;
+  border-radius: 20px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.publication-project .project-title {
+  margin: 0;
+  color: #67121c;
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(28px, 4vw, 44px);
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.publication-project .project-authors,
+.publication-project .project-conference,
+.publication-project .project-abstract,
+.publication-project .project-section-title {
+  font-family: "Montserrat", sans-serif;
+}
+
+.publication-project .project-authors {
+  margin: 18px 0 8px;
+  color: #97323b;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.publication-project .project-conference {
+  margin: 0;
+  color: #2f2525;
+  font-size: 18px;
+  font-style: italic;
+}
+
+.publication-project .project-divider {
+  height: 1px;
+  margin: 28px 0;
+  border: 0;
+  background: linear-gradient(to right, rgba(204, 204, 204, .8), rgba(204, 204, 204, .2));
+}
+
+.publication-project .project-section-title {
+  margin: 0 0 12px;
+  color: #67121c;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.publication-project .project-abstract,
+.publication-project .project-links {
+  color: #2f2525;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.publication-project .project-links a {
+  margin-right: 16px;
+  color: #97323b;
+  text-decoration: none;
+}
+
+.publication-project .project-links a:hover {
+  text-decoration: underline;
+}
+
+.publication-project .project-links a:focus-visible {
+  outline: 2px solid #edba4f;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.publication-project .video-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.publication-project .video-frame iframe {
+  width: 100%;
+  height: clamp(200px, 56.25vw, 506.25px);
+  border: 0;
+}
+
+@supports (aspect-ratio: 16 / 9) {
+  .publication-project .video-frame iframe {
+    height: 100%;
+  }
+}
+
+.publication-project .bibtex {
+  margin: 0;
+  padding: 18px;
+  overflow-x: auto;
+  color: #2f2525;
+  background: #f9f7f6;
+  border-left: 4px solid #edba4f;
+  font: 14px/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+
+@media screen and (max-width: 600px) {
+  .publication-project {
+    padding: 0 12px 32px;
+  }
+
+  .publication-project .page {
+    padding-top: 190px;
+  }
+
+  .publication-project .project-shell {
+    padding: 28px 20px;
+    border-radius: 14px;
+  }
+
+  .publication-project .project-authors,
+  .publication-project .project-conference,
+  .publication-project .project-abstract,
+  .publication-project .project-links {
+    font-size: 15px;
+  }
+}
