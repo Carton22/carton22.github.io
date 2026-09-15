@@ -1403,14 +1403,61 @@ body > .button-container {
 		grid-column: 1;
 		grid-row: 3 !important;
 		top: 0;
-		margin-top: 24px;
+		margin-top: 0 !important;
 	}
 
 	#page1 .profile-links {
 		grid-column: 1;
 		grid-row: 4 !important;
 		top: 0;
-		margin-top: 20px;
+		margin-top: 24px !important;
+	}
+}
+
+/* Keep the complete desktop profile panel visible in the first viewport. */
+@media screen and (min-width: 1201px) {
+	#page1 {
+		padding-top: 20px !important;
+	}
+
+	#page1 .bodyBigtext {
+		font-size: clamp(1.8rem, 2.4vw, 2.6rem) !important;
+	}
+
+	#page1 .bodyChineseBigtext {
+		font-size: clamp(1.6rem, 1.9vw, 2.1rem) !important;
+	}
+
+	#page1 .textContainer {
+		margin-top: -8px !important;
+	}
+
+	#page1 .profile-links {
+		margin-top: 12px !important;
+		top: -36px !important;
+	}
+}
+
+/* Keep the stacked first page compact enough to show the social links. */
+@media screen and (max-width: 1200px) {
+	#page1 {
+		padding-top: 36px !important;
+	}
+
+	#page1 .textContainer {
+		margin-top: 10px !important;
+	}
+
+	#page1 .bodyBigtext {
+		font-size: clamp(1.65rem, 2.6vw, 2.6rem) !important;
+	}
+
+	#page1 .bodyChineseBigtext {
+		font-size: clamp(1.45rem, 2.2vw, 2.1rem) !important;
+	}
+
+	#page1 .profile-links {
+		margin-top: 12px !important;
 	}
 }
 
@@ -1681,8 +1728,10 @@ body {
 
 	#page1 .components-row {
 		grid-column: 2;
-		grid-row: 1 / span 3;
+		grid-row: 1 / span 4;
 		align-self: start;
+		/* Clear the navigation capsules (20px top + 60px height). */
+		margin-top: 80px;
 	}
 }
 
