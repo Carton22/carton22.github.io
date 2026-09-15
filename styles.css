@@ -1385,6 +1385,115 @@ body > .button-container {
 	}
 }
 
+/* Final header row placement: keep the notice above the name on desktop. */
+@media screen and (min-width: 1201px) {
+	#page1 {
+		grid-template-rows: auto auto auto auto !important;
+	}
+
+	#page1 .profile-email {
+		grid-column: 1;
+		grid-row: 2 !important;
+		position: relative;
+		top: 0;
+		margin-top: 20px;
+	}
+
+	#page1 .textContainer {
+		grid-column: 1;
+		grid-row: 3 !important;
+		top: 0;
+		margin-top: 24px;
+	}
+
+	#page1 .profile-links {
+		grid-column: 1;
+		grid-row: 4 !important;
+		top: 0;
+		margin-top: 20px;
+	}
+}
+
+/* Keep the contact, internship notice, and name as distinct header rows. */
+.profile-email {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 14px;
+	width: min(100%, 760px);
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.email-address {
+	line-height: 1.2;
+}
+
+.internship-notice {
+	display: inline-block;
+	max-width: 100%;
+	box-sizing: border-box;
+	padding: 7px 14px;
+	border: 1px solid rgba(151, 50, 59, 0.22);
+	border-radius: 999px;
+	background-color: rgba(151, 50, 59, 0.1);
+	color: #6f131d;
+	font-size: 0.76em;
+	line-height: 1.35;
+	text-align: center;
+}
+
+@media screen and (min-width: 1201px) {
+	#page1 .profile-email {
+		grid-column: 1;
+		grid-row: 2;
+		top: 0;
+		margin-top: 20px;
+	}
+
+	#page1 .textContainer {
+		grid-column: 1;
+		grid-row: 3;
+		top: 0;
+		margin-top: 24px;
+	}
+
+	#page1 .profile-links {
+		grid-column: 1;
+		grid-row: 4;
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	#page1 .profile-email {
+		margin: 20px 0 0;
+	}
+
+	#page1 .textContainer {
+		margin-top: 24px;
+	}
+
+	#page1 .profile-links {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#page1 .profile-email {
+		gap: 10px;
+	}
+
+	.internship-notice {
+		font-size: 0.82em;
+		padding: 6px 12px;
+	}
+
+	#page1 .textContainer {
+		margin-top: 20px;
+	}
+}
+
 /* Keep the homepage background continuous and tighten the profile stack. */
 body {
 	background: #f9f7f6;
