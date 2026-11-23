@@ -44,11 +44,27 @@
   line-height: 1.6;
 }
 
+.publication-project .project-publication {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px 24px;
+  margin-top: 22px;
+}
+
 .publication-project .project-conference {
   margin: 0;
-  color: #2f2525;
-  font-size: 18px;
-  font-style: italic;
+  padding: 7px 12px;
+  border: 1px solid #ead9dc;
+  border-radius: 6px;
+  color: #67121c;
+  background: #f8eff0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: .04em;
+  white-space: nowrap;
 }
 
 .publication-project .project-divider {
@@ -65,27 +81,53 @@
   font-weight: 300;
 }
 
-.publication-project .project-abstract,
-.publication-project .project-links {
+.publication-project .project-abstract {
   color: #2f2525;
   font-size: 17px;
   line-height: 1.7;
 }
 
+.publication-project .project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .publication-project .project-links a {
-  margin-right: 16px;
-  color: #97323b;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border: 1px solid #b97a81;
+  border-radius: 8px;
+  color: #67121c;
+  background: #fff;
+  font: 500 16px/1.4 Arial, Helvetica, sans-serif;
   text-decoration: none;
+  transition: background-color .16s ease, border-color .16s ease;
+}
+
+.publication-project .project-links .project-link-primary {
+  border-color: #97323b;
+  color: #fff;
+  background: #97323b;
 }
 
 .publication-project .project-links a:hover {
-  text-decoration: underline;
+  border-color: #67121c;
+  background: #f8eff0;
+}
+
+.publication-project .project-links .project-link-primary:hover {
+  border-color: #67121c;
+  background: #67121c;
 }
 
 .publication-project .project-links a:focus-visible {
-  outline: 2px solid #edba4f;
+  outline: 3px solid #67121c;
   outline-offset: 3px;
-  border-radius: 2px;
 }
 
 .publication-project .video-frame {
@@ -186,9 +228,13 @@
   }
 
   .publication-project .project-authors,
-  .publication-project .project-conference,
-  .publication-project .project-abstract,
-  .publication-project .project-links {
+  .publication-project .project-abstract {
     font-size: 15px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .publication-project .project-links a {
+    transition: none;
   }
 }
